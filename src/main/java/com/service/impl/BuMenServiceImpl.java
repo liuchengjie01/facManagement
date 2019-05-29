@@ -18,7 +18,6 @@ public class BuMenServiceImpl implements BuMenService {
     @Override
     public List<BuMen> queryAllBuMen()
     {
-        System.out.println("Implement!");
         return buDao.queryAllBuMen();
     }
 

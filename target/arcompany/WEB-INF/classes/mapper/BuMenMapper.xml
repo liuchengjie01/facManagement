@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.BuMenDao">
+    <resultMap type="BuMen" id="BuMenResultMap">
+        <id property="departmentID" column="department_id"/>
+        <result property="departmentName" column="department_name"/>
+        <result property="managerID" column="manager_id"/>
+        <result property="agentManager" column="agent_manager"/>
+    </resultMap>
+    <select id="queryAllBuMen" resultMap="BuMenResultMap">
+        SELECT *
+        FROM department
+    </select>
+    <insert id="addBumen" parameterType="BuMen">
+        insert into department (department_name,manager_id)
+        values
+        (#{departmentName},#{managerID})
+    </insert>
+</mapper>
