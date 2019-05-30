@@ -6,7 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+    pageContext.setAttribute("path", request.getContextPath());
+%>
+<% String appPath = request.getContextPath(); %>
+<html lang="en">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta charset="utf-8" />
@@ -16,40 +21,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
     <!-- bootstrap & fontawesome -->
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/font-awesome/4.5.0/css/font-awesome.min.css" />
 
     <!-- page specific plugin styles -->
-    <link rel="stylesheet" href="../assets/css/jquery-ui.min.css" />
-    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker3.min.css" />
-    <link rel="stylesheet" href="../assets/css/ui.jqgrid.min.css" />
+    <link rel="stylesheet" href="/assets/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap-datepicker3.min.css" />
+    <link rel="stylesheet" href="/assets/css/ui.jqgrid.min.css" />
 
     <!-- text fonts -->
-    <link rel="stylesheet" href="../assets/css/fonts.googleapis.com.css" />
+    <link rel="stylesheet" href="/assets/css/fonts.googleapis.com.css" />
 
     <!-- ace styles -->
-    <link rel="stylesheet" href="../assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+    <link rel="stylesheet" href="/assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+    <link rel="stylesheet" href="/assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
     <![endif]-->
-    <link rel="stylesheet" href="assets/css/ace-skins.min.css" />
-    <link rel="stylesheet" href="assets/css/ace-rtl.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-rtl.min.css" />
 
     <!--[if lte IE 9]>
-    <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
+    <link rel="stylesheet" href="/assets/css/ace-ie.min.css" />
     <![endif]-->
 
     <!-- inline styles related to this page -->
 
     <!-- ace settings handler -->
-    <script src="assets/js/ace-extra.min.js"></script>
+    <script src="/assets/js/ace-extra.min.js"></script>
 
     <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
 
     <!--[if lte IE 8]>
-    <script src="assets/js/html5shiv.min.js"></script>
-    <script src="assets/js/respond.min.js"></script>
+    <script src="/assets/js/html5shiv.min.js"></script>
+    <script src="/assets/js/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -70,305 +75,13 @@
             <a href="index.html" class="navbar-brand">
                 <small>
                     <i class="fa fa-leaf"></i>
-                    Ace Admin
+                    卡通建筑公司管理平台
                 </small>
             </a>
         </div>
 
         <div class="navbar-buttons navbar-header pull-right" role="navigation">
-            <ul class="nav ace-nav">
-                <li class="grey dropdown-modal">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="ace-icon fa fa-tasks"></i>
-                        <span class="badge badge-grey">4</span>
-                    </a>
 
-                    <ul class="dropdown-menu-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
-                        <li class="dropdown-header">
-                            <i class="ace-icon fa fa-check"></i>
-                            4 Tasks to complete
-                        </li>
-
-                        <li class="dropdown-content">
-                            <ul class="dropdown-menu dropdown-navbar">
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-                                            <span class="pull-left">Software Update</span>
-                                            <span class="pull-right">65%</span>
-                                        </div>
-
-                                        <div class="progress progress-mini">
-                                            <div style="width:65%" class="progress-bar"></div>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-                                            <span class="pull-left">Hardware Upgrade</span>
-                                            <span class="pull-right">35%</span>
-                                        </div>
-
-                                        <div class="progress progress-mini">
-                                            <div style="width:35%" class="progress-bar progress-bar-danger"></div>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-                                            <span class="pull-left">Unit Testing</span>
-                                            <span class="pull-right">15%</span>
-                                        </div>
-
-                                        <div class="progress progress-mini">
-                                            <div style="width:15%" class="progress-bar progress-bar-warning"></div>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-                                            <span class="pull-left">Bug Fixes</span>
-                                            <span class="pull-right">90%</span>
-                                        </div>
-
-                                        <div class="progress progress-mini progress-striped active">
-                                            <div style="width:90%" class="progress-bar progress-bar-success"></div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown-footer">
-                            <a href="#">
-                                See tasks with details
-                                <i class="ace-icon fa fa-arrow-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="purple dropdown-modal">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="ace-icon fa fa-bell icon-animated-bell"></i>
-                        <span class="badge badge-important">8</span>
-                    </a>
-
-                    <ul class="dropdown-menu-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
-                        <li class="dropdown-header">
-                            <i class="ace-icon fa fa-exclamation-triangle"></i>
-                            8 Notifications
-                        </li>
-
-                        <li class="dropdown-content">
-                            <ul class="dropdown-menu dropdown-navbar navbar-pink">
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-													<span class="pull-left">
-														<i class="btn btn-xs no-hover btn-pink fa fa-comment"></i>
-														New Comments
-													</span>
-                                            <span class="pull-right badge badge-info">+12</span>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i class="btn btn-xs btn-primary fa fa-user"></i>
-                                        Bob just signed up as an editor ...
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-													<span class="pull-left">
-														<i class="btn btn-xs no-hover btn-success fa fa-shopping-cart"></i>
-														New Orders
-													</span>
-                                            <span class="pull-right badge badge-success">+8</span>
-                                        </div>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <div class="clearfix">
-													<span class="pull-left">
-														<i class="btn btn-xs no-hover btn-info fa fa-twitter"></i>
-														Followers
-													</span>
-                                            <span class="pull-right badge badge-info">+11</span>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown-footer">
-                            <a href="#">
-                                See all notifications
-                                <i class="ace-icon fa fa-arrow-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="green dropdown-modal">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <i class="ace-icon fa fa-envelope icon-animated-vertical"></i>
-                        <span class="badge badge-success">5</span>
-                    </a>
-
-                    <ul class="dropdown-menu-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
-                        <li class="dropdown-header">
-                            <i class="ace-icon fa fa-envelope-o"></i>
-                            5 Messages
-                        </li>
-
-                        <li class="dropdown-content">
-                            <ul class="dropdown-menu dropdown-navbar">
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <img src="assets/images/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
-                                        <span class="msg-body">
-													<span class="msg-title">
-														<span class="blue">Alex:</span>
-														Ciao sociis natoque penatibus et auctor ...
-													</span>
-
-													<span class="msg-time">
-														<i class="ace-icon fa fa-clock-o"></i>
-														<span>a moment ago</span>
-													</span>
-												</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <img src="assets/images/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
-                                        <span class="msg-body">
-													<span class="msg-title">
-														<span class="blue">Susan:</span>
-														Vestibulum id ligula porta felis euismod ...
-													</span>
-
-													<span class="msg-time">
-														<i class="ace-icon fa fa-clock-o"></i>
-														<span>20 minutes ago</span>
-													</span>
-												</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <img src="assets/images/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
-                                        <span class="msg-body">
-													<span class="msg-title">
-														<span class="blue">Bob:</span>
-														Nullam quis risus eget urna mollis ornare ...
-													</span>
-
-													<span class="msg-time">
-														<i class="ace-icon fa fa-clock-o"></i>
-														<span>3:15 pm</span>
-													</span>
-												</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <img src="assets/images/avatars/avatar2.png" class="msg-photo" alt="Kate's Avatar" />
-                                        <span class="msg-body">
-													<span class="msg-title">
-														<span class="blue">Kate:</span>
-														Ciao sociis natoque eget urna mollis ornare ...
-													</span>
-
-													<span class="msg-time">
-														<i class="ace-icon fa fa-clock-o"></i>
-														<span>1:33 pm</span>
-													</span>
-												</span>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" class="clearfix">
-                                        <img src="assets/images/avatars/avatar5.png" class="msg-photo" alt="Fred's Avatar" />
-                                        <span class="msg-body">
-													<span class="msg-title">
-														<span class="blue">Fred:</span>
-														Vestibulum id penatibus et auctor  ...
-													</span>
-
-													<span class="msg-time">
-														<i class="ace-icon fa fa-clock-o"></i>
-														<span>10:09 am</span>
-													</span>
-												</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown-footer">
-                            <a href="inbox.html">
-                                See all messages
-                                <i class="ace-icon fa fa-arrow-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <li class="light-blue dropdown-modal">
-                    <a data-toggle="dropdown" href="#" class="dropdown-toggle">
-                        <img class="nav-user-photo" src="assets/images/avatars/user.jpg" alt="Jason's Photo" />
-                        <span class="user-info">
-									<small>Welcome,</small>
-									Jason
-								</span>
-
-                        <i class="ace-icon fa fa-caret-down"></i>
-                    </a>
-
-                    <ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
-                        <li>
-                            <a href="#">
-                                <i class="ace-icon fa fa-cog"></i>
-                                Settings
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="profile.html">
-                                <i class="ace-icon fa fa-user"></i>
-                                Profile
-                            </a>
-                        </li>
-
-                        <li class="divider"></li>
-
-                        <li>
-                            <a href="#">
-                                <i class="ace-icon fa fa-power-off"></i>
-                                Logout
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
         </div>
     </div><!-- /.navbar-container -->
 </div>
@@ -673,7 +386,7 @@
                     </li>
 
                     <li class="active">
-                        <a href="jsp/department.html">
+                        <a href="department.html">
                             <i class="menu-icon fa fa-caret-right"></i>
                             部门表
                         </a>
@@ -1168,10 +881,10 @@
 
                 <div class="page-header">
                     <h1>
-                        jqGrid
+                        部门
                         <small>
                             <i class="ace-icon fa fa-angle-double-right"></i>
-                            Dynamic tables and grids using jqGrid plugin
+                            当前公司的中的各个部门
                         </small>
                     </h1>
                 </div><!-- /.page-header -->
@@ -1179,19 +892,40 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- PAGE CONTENT BEGINS -->
-                        <div class="alert alert-info">
-                            <button class="close" data-dismiss="alert">
-                                <i class="ace-icon fa fa-times"></i>
-                            </button>
-
-                            <i class="ace-icon fa fa-hand-o-right"></i>
-                            Please note that demo server is not configured to save the changes, therefore you may see an error message.
-                        </div>
-
                         <table id="grid-table"></table>
-
+                        <div class="row clearfix">
+                            <div class="col-md-12 column">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>部门编号</th>
+                                        <th>部门名字</th>
+                                        <th>部门经理</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <c:forEach var="Bumen" items="${requestScope.get('list')}" varStatus="status">
+                                        <tr>
+                                            <td>${Bumen.departmentID}</td>
+                                            <td>${Bumen.departmentName}</td>
+                                            <td>${Bumen.managerID}</td>
+                                            <td>
+                                                <a href="${path}/BuMen/allBumen?id=${Bumen.departmentID}">更改</a> |
+                                                <a href="${path}/BuMen/allBumen?id=${Bumen.departmentID}">删除</a>
+                                            </td>
+                                        </tr>
+                                    </c:forEach>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 column">
+                                <a class="btn btn-primary" href="${path}/BuMen/toInsertBumen">新增</a>
+                            </div>
+                        </div>
                         <div id="grid-pager"></div>
-
                         <!-- PAGE CONTENT ENDS -->
                     </div><!-- /.col -->
                 </div><!-- /.row -->
@@ -1233,410 +967,28 @@
 <!-- basic scripts -->
 
 <!--[if !IE]> -->
-<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="/assets/js/jquery-2.1.4.min.js"></script>
 
 <!-- <![endif]-->
 
 <!--[if IE]>
-<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="/assets/js/jquery-1.11.3.min.js"></script>
 <![endif]-->
 <script type="text/javascript">
-    if('ontouchstart' in document.documentElement) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+    if('ontouchstart' in document.documentElement) document.write("<script src='/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 </script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 
 <!-- page specific plugin scripts -->
-<script src="assets/js/bootstrap-datepicker.min.js"></script>
-<script src="assets/js/jquery.jqGrid.min.js"></script>
-<script src="assets/js/grid.locale-en.js"></script>
+<script src="/assets/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/js/jquery.jqGrid.min.js"></script>
+<script src="/assets/js/grid.locale-en.js"></script>
 
 <!-- ace scripts -->
-<script src="assets/js/ace-elements.min.js"></script>
-<script src="assets/js/ace.min.js"></script>
+<script src="/assets/js/ace-elements.min.js"></script>
+<script src="/assets/js/ace.min.js"></script>
 
 <!-- inline scripts related to this page -->
-<script type="text/javascript">
-    var grid_data =
-        [
-            {部门编号:"05",部门名称:"材料供应",部门办公地点:"总部六楼",部门经理_员工号:"20110001"}
 
-        ];
-
-    var subgrid_data =
-        [
-
-        ];
-
-    jQuery(function($) {
-        var grid_selector = "#grid-table";
-        var pager_selector = "#grid-pager";
-
-
-        var parent_column = $(grid_selector).closest('[class*="col-"]');
-        //resize to fit page size
-        $(window).on('resize.jqGrid', function () {
-            $(grid_selector).jqGrid( 'setGridWidth', parent_column.width() );
-        })
-
-        //resize on sidebar collapse/expand
-        $(document).on('settings.ace.jqGrid' , function(ev, event_name, collapsed) {
-            if( event_name === 'sidebar_collapsed' || event_name === 'main_container_fixed' ) {
-                //setTimeout is for webkit only to give time for DOM changes and then redraw!!!
-                setTimeout(function() {
-                    $(grid_selector).jqGrid( 'setGridWidth', parent_column.width() );
-                }, 20);
-            }
-        })
-
-        //if your grid is inside another element, for example a tab pane, you should use its parent's width:
-        /**
-         $(window).on('resize.jqGrid', function () {
-					var parent_width = $(grid_selector).closest('.tab-pane').width();
-					$(grid_selector).jqGrid( 'setGridWidth', parent_width );
-				})
-         //and also set width when tab pane becomes visible
-         $('#myTab a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-				  if($(e.target).attr('href') == '#mygrid') {
-					var parent_width = $(grid_selector).closest('.tab-pane').width();
-					$(grid_selector).jqGrid( 'setGridWidth', parent_width );
-				  }
-				})
-         */
-
-
-
-
-
-        jQuery(grid_selector).jqGrid({
-            //direction: "rtl",
-
-            //subgrid options
-            subGrid : true,
-            //subGridModel: [{ name : ['No','Item Name','Qty'], width : [55,200,80] }],
-            //datatype: "xml",
-            subGridOptions : {
-                plusicon : "ace-icon fa fa-plus center bigger-110 blue",
-                minusicon  : "ace-icon fa fa-minus center bigger-110 blue",
-                openicon : "ace-icon fa fa-chevron-right center orange"
-            },
-            //for this example we are using local data
-            subGridRowExpanded: function (subgridDivId, rowId) {
-                var subgridTableId = subgridDivId + "_t";
-                $("#" + subgridDivId).html("<table id='" + subgridTableId + "'></table>");
-                $("#" + subgridTableId).jqGrid({
-                    datatype: 'local',
-                    data: subgrid_data,
-                    colNames: ['No','Item Name','Qty'],
-                    colModel: [
-                        { name: 'id', width: 50 },
-                        { name: 'name', width: 150 },
-                        { name: 'qty', width: 50 }
-                    ]
-                });
-            },
-
-
-
-            data: grid_data,
-            datatype: "local",
-            height: 250,
-            colNames:[' ','部门编号','部门名称', '部门办公地点', '部门经理_员工号'],
-            colModel:[
-                {name:'myac',index:'', width:80, fixed:true, sortable:false, resize:false,
-                    formatter:'actions',
-                    formatoptions:{
-                        keys:true,
-                        //delbutton: false,//disable delete button
-
-                        delOptions:{recreateForm: true, beforeShowForm:beforeDeleteCallback},
-                        //editformbutton:true, editOptions:{recreateForm: true, beforeShowForm:beforeEditCallback}
-                    }
-                },
-                {name:'部门编号',index:'部门编号',width:60, editable:true,editoptions:{size:"20",maxlength:"30"}},
-                {name:'部门名称',index:'部门名称', width:90,editable: true,editoptions:{size:"20",maxlength:"30"}},
-                {name:'部门办公地点',index:'部门办公地点', width:90,editable: true,editoptions:{size:"20",maxlength:"30"}},
-                {name:'部门经理_员工号',index:'部门经理_员工号', width:90, editable: true,editoptions:{size:"20",maxlength:"30"}}
-
-            ],
-
-            viewrecords : true,
-            rowNum:10,
-            rowList:[10,20,30],
-            pager : pager_selector,
-            altRows: true,
-            //toppager: true,
-
-            multiselect: true,
-            //multikey: "ctrlKey",
-            multiboxonly: true,
-
-            loadComplete : function() {
-                var table = this;
-                setTimeout(function(){
-                    styleCheckbox(table);
-
-                    updateActionIcons(table);
-                    updatePagerIcons(table);
-                    enableTooltips(table);
-                }, 0);
-            },
-
-            editurl: "./dummy.php",//nothing is saved
-            caption: "jqGrid with inline editing"
-
-            //,autowidth: true,
-
-
-            /**
-             ,
-             grouping:true,
-             groupingView : {
-						 groupField : ['name'],
-						 groupDataSorted : true,
-						 plusicon : 'fa fa-chevron-down bigger-110',
-						 minusicon : 'fa fa-chevron-up bigger-110'
-					},
-             caption: "Grouping"
-             */
-
-        });
-        $(window).triggerHandler('resize.jqGrid');//trigger window resize to make the grid get the correct size
-
-
-
-        //enable search/filter toolbar
-        //jQuery(grid_selector).jqGrid('filterToolbar',{defaultSearch:true,stringResult:true})
-        //jQuery(grid_selector).filterToolbar({});
-
-
-        //switch element when editing inline
-        function aceSwitch( cellvalue, options, cell ) {
-            setTimeout(function(){
-                $(cell) .find('input[type=checkbox]')
-                    .addClass('ace ace-switch ace-switch-5')
-                    .after('<span class="lbl"></span>');
-            }, 0);
-        }
-        //enable datepicker
-        function pickDate( cellvalue, options, cell ) {
-            setTimeout(function(){
-                $(cell) .find('input[type=text]')
-                    .datepicker({format:'yyyy-mm-dd' , autoclose:true});
-            }, 0);
-        }
-
-
-        //navButtons
-        jQuery(grid_selector).jqGrid('navGrid',pager_selector,
-            { 	//navbar options
-                edit: true,
-                editicon : 'ace-icon fa fa-pencil blue',
-                add: true,
-                addicon : 'ace-icon fa fa-plus-circle purple',
-                del: true,
-                delicon : 'ace-icon fa fa-trash-o red',
-                search: true,
-                searchicon : 'ace-icon fa fa-search orange',
-                refresh: true,
-                refreshicon : 'ace-icon fa fa-refresh green',
-                view: true,
-                viewicon : 'ace-icon fa fa-search-plus grey',
-            },
-            {
-                //edit record form
-                //closeAfterEdit: true,
-                //width: 700,
-                recreateForm: true,
-                beforeShowForm : function(e) {
-                    var form = $(e[0]);
-                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
-                    style_edit_form(form);
-                }
-            },
-            {
-                //new record form
-                //width: 700,
-                closeAfterAdd: true,
-                recreateForm: true,
-                viewPagerButtons: false,
-                beforeShowForm : function(e) {
-                    var form = $(e[0]);
-                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar')
-                        .wrapInner('<div class="widget-header" />')
-                    style_edit_form(form);
-                }
-            },
-            {
-                //delete record form
-                recreateForm: true,
-                beforeShowForm : function(e) {
-                    var form = $(e[0]);
-                    if(form.data('styled')) return false;
-
-                    form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
-                    style_delete_form(form);
-
-                    form.data('styled', true);
-                },
-                onClick : function(e) {
-                    //alert(1);
-                }
-            },
-            {
-                //search form
-                recreateForm: true,
-                afterShowSearch: function(e){
-                    var form = $(e[0]);
-                    form.closest('.ui-jqdialog').find('.ui-jqdialog-title').wrap('<div class="widget-header" />')
-                    style_search_form(form);
-                },
-                afterRedraw: function(){
-                    style_search_filters($(this));
-                }
-                ,
-                multipleSearch: true,
-                /**
-                 multipleGroup:true,
-                 showQuery: true
-                 */
-            },
-            {
-                //view record form
-                recreateForm: true,
-                beforeShowForm: function(e){
-                    var form = $(e[0]);
-                    form.closest('.ui-jqdialog').find('.ui-jqdialog-title').wrap('<div class="widget-header" />')
-                }
-            }
-        )
-
-
-
-        function style_edit_form(form) {
-            //enable datepicker on "sdate" field and switches for "stock" field
-            form.find('input[name=sdate]').datepicker({format:'yyyy-mm-dd' , autoclose:true})
-
-            form.find('input[name=stock]').addClass('ace ace-switch ace-switch-5').after('<span class="lbl"></span>');
-            //don't wrap inside a label element, the checkbox value won't be submitted (POST'ed)
-            //.addClass('ace ace-switch ace-switch-5').wrap('<label class="inline" />').after('<span class="lbl"></span>');
-
-
-            //update buttons classes
-            var buttons = form.next().find('.EditButton .fm-button');
-            buttons.addClass('btn btn-sm').find('[class*="-icon"]').hide();//ui-icon, s-icon
-            buttons.eq(0).addClass('btn-primary').prepend('<i class="ace-icon fa fa-check"></i>');
-            buttons.eq(1).prepend('<i class="ace-icon fa fa-times"></i>')
-
-            buttons = form.next().find('.navButton a');
-            buttons.find('.ui-icon').hide();
-            buttons.eq(0).append('<i class="ace-icon fa fa-chevron-left"></i>');
-            buttons.eq(1).append('<i class="ace-icon fa fa-chevron-right"></i>');
-        }
-
-        function style_delete_form(form) {
-            var buttons = form.next().find('.EditButton .fm-button');
-            buttons.addClass('btn btn-sm btn-white btn-round').find('[class*="-icon"]').hide();//ui-icon, s-icon
-            buttons.eq(0).addClass('btn-danger').prepend('<i class="ace-icon fa fa-trash-o"></i>');
-            buttons.eq(1).addClass('btn-default').prepend('<i class="ace-icon fa fa-times"></i>')
-        }
-
-        function style_search_filters(form) {
-            form.find('.delete-rule').val('X');
-            form.find('.add-rule').addClass('btn btn-xs btn-primary');
-            form.find('.add-group').addClass('btn btn-xs btn-success');
-            form.find('.delete-group').addClass('btn btn-xs btn-danger');
-        }
-        function style_search_form(form) {
-            var dialog = form.closest('.ui-jqdialog');
-            var buttons = dialog.find('.EditTable')
-            buttons.find('.EditButton a[id*="_reset"]').addClass('btn btn-sm btn-info').find('.ui-icon').attr('class', 'ace-icon fa fa-retweet');
-            buttons.find('.EditButton a[id*="_query"]').addClass('btn btn-sm btn-inverse').find('.ui-icon').attr('class', 'ace-icon fa fa-comment-o');
-            buttons.find('.EditButton a[id*="_search"]').addClass('btn btn-sm btn-purple').find('.ui-icon').attr('class', 'ace-icon fa fa-search');
-        }
-
-        function beforeDeleteCallback(e) {
-            var form = $(e[0]);
-            if(form.data('styled')) return false;
-
-            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
-            style_delete_form(form);
-
-            form.data('styled', true);
-        }
-
-        function beforeEditCallback(e) {
-            var form = $(e[0]);
-            form.closest('.ui-jqdialog').find('.ui-jqdialog-titlebar').wrapInner('<div class="widget-header" />')
-            style_edit_form(form);
-        }
-
-
-
-        //it causes some flicker when reloading or navigating grid
-        //it may be possible to have some custom formatter to do this as the grid is being created to prevent this
-        //or go back to default browser checkbox styles for the grid
-        function styleCheckbox(table) {
-            /**
-             $(table).find('input:checkbox').addClass('ace')
-             .wrap('<label />')
-             .after('<span class="lbl align-top" />')
-
-
-             $('.ui-jqgrid-labels th[id*="_cb"]:first-child')
-             .find('input.cbox[type=checkbox]').addClass('ace')
-             .wrap('<label />').after('<span class="lbl align-top" />');
-             */
-        }
-
-
-        //unlike navButtons icons, action icons in rows seem to be hard-coded
-        //you can change them like this in here if you want
-        function updateActionIcons(table) {
-            /**
-             var replacement =
-             {
-						'ui-ace-icon fa fa-pencil' : 'ace-icon fa fa-pencil blue',
-						'ui-ace-icon fa fa-trash-o' : 'ace-icon fa fa-trash-o red',
-						'ui-icon-disk' : 'ace-icon fa fa-check green',
-						'ui-icon-cancel' : 'ace-icon fa fa-times red'
-					};
-             $(table).find('.ui-pg-div span.ui-icon').each(function(){
-						var icon = $(this);
-						var $class = $.trim(icon.attr('class').replace('ui-icon', ''));
-						if($class in replacement) icon.attr('class', 'ui-icon '+replacement[$class]);
-					})
-             */
-        }
-
-        //replace icons with FontAwesome icons like above
-        function updatePagerIcons(table) {
-            var replacement =
-                {
-                    'ui-icon-seek-first' : 'ace-icon fa fa-angle-double-left bigger-140',
-                    'ui-icon-seek-prev' : 'ace-icon fa fa-angle-left bigger-140',
-                    'ui-icon-seek-next' : 'ace-icon fa fa-angle-right bigger-140',
-                    'ui-icon-seek-end' : 'ace-icon fa fa-angle-double-right bigger-140'
-                };
-            $('.ui-pg-table:not(.navtable) > tbody > tr > .ui-pg-button > .ui-icon').each(function(){
-                var icon = $(this);
-                var $class = $.trim(icon.attr('class').replace('ui-icon', ''));
-
-                if($class in replacement) icon.attr('class', 'ui-icon '+replacement[$class]);
-            })
-        }
-
-        function enableTooltips(table) {
-            $('.navtable .ui-pg-button').tooltip({container:'body'});
-            $(table).find('.ui-pg-div').tooltip({container:'body'});
-        }
-
-        //var selr = jQuery(grid_selector).jqGrid('getGridParam','selrow');
-
-        $(document).one('ajaxloadstart.page', function(e) {
-            $.jgrid.gridDestroy(grid_selector);
-            $('.ui-jqdialog').remove();
-        });
-    });
-</script>
 </body>
 </html>

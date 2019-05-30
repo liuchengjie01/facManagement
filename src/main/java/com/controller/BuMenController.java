@@ -23,7 +23,7 @@ public class BuMenController {
     public String list(Model model) {
         List<BuMen> list = buMenService.queryAllBuMen();
         model.addAttribute("list", list);
-        return "allBumen";
+        return "department";
     }
 
     @RequestMapping("toInsertBumen")
