@@ -6,294 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700835aa-d0bc-431c-bc43-12ad580e7ac9" name="Default Changelist" comment="创建了项目&#10;完成了与department相关的部分操作">
+    <list default="true" id="a57b9b15-82ac-4e2e-a8cb-1b0a2159a374" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ace-ie.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-ie.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ace-part2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-part2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ace-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ace-skins.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace-skins.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ace.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ace.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-duallistbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-editable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-editable.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-multiselect.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap-timepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/chosen.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/colorbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/colorbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/daterangepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/daterangepicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/dropzone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/dropzone.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/fonts.googleapis.com.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fonts.googleapis.com.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/fullcalendar.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/images/meteorshower2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/meteorshower2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/images/pattern.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/images/pattern.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/jquery-ui.custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery-ui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/jquery.gritter.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/jquery.gritter.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/prettify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/prettify.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/select2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/css/ui.jqgrid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/ui.jqgrid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/front-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/front-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/avatar5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/avatar5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/profile-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/profile-pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/avatars/user.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/avatars/user.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/alpha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/hue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/bootstrap-colorpicker/saturation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/email/email1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/email/email2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/email/email3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/email/email4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/email/email4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/image-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/gallery/thumb-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/placeholder/165x90.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/165x90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/placeholder/255x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/255x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/placeholder/530x270.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/530x270.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/images/placeholder/550x280.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/images/placeholder/550x280.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/ace-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-editable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/ace-elements.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-elements.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/ace-extra.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace-extra.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/ace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/ace.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/autosize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/autosize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-editable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-markdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-multiselect.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-tag.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-timepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.colVis.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.flash.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/buttons.html5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.html5.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/buttons.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/buttons.print.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/chosen.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/dataTables.buttons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.buttons.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/dataTables.select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dataTables.select.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/daterangepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/daterangepicker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/dropzone.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/excanvas.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/grid.locale-en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/grid.locale-en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/holder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/holder.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/html5shiv.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-2.1.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-2.1.4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-additional-methods.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-typeahead.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-typeahead.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-ui.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.colorbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.colorbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.easypiechart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.easypiechart.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.flot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.flot.pie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.flot.resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.gritter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.hotkeys.index.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.inputlimiter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.inputlimiter.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.jqGrid.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.knob.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.maskedinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.mobile.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.nestable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.raty.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.raty.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.sparkline.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.sparkline.index.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/markdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/moment.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/prettify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/prettify.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/respond.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/select2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/spin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/spinbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/spinbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/tree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/tree.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/js/wizard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/wizard.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/swf/flashExport.swf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/swf/flashExport.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ace-ie.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ace-part2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ace-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ace-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ace.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-duallistbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-editable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-multiselect.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap-timepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/chosen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/colorbox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/daterangepicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/dropzone.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/fonts.googleapis.com.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/fullcalendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/images/meteorshower2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/images/pattern.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/jquery-ui.custom.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/jquery-ui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/jquery.gritter.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/prettify.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/css/ui.jqgrid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/front-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/profile-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/avatars/user.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/email/email1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/email/email2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/email/email3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/email/email4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/gallery/thumb-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/placeholder/165x90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/placeholder/255x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/placeholder/530x270.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/images/placeholder/550x280.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/ace-editable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/ace-elements.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/ace-extra.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/ace.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/autosize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-datepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-editable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-markdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-multiselect.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-tag.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-timepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/buttons.colVis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/buttons.flash.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/buttons.html5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/buttons.print.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/chosen.jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/dataTables.buttons.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/dataTables.select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/daterangepicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/dropzone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/excanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/fullcalendar.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/grid.locale-en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/holder.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-additional-methods.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-typeahead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-ui.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.colorbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.flot.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.flot.pie.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.flot.resize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.gritter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.inputlimiter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.jqGrid.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.knob.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.maskedinput.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.mobile.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.nestable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.raty.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.sparkline.index.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/markdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/moment.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/prettify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/select2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/spin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/spinbox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/tree.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/js/wizard.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/assets/swf/flashExport.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/department.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/BuMenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/BuMenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/impl/BuMenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/impl/BuMenServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/arcompany.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/BuMenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/BuMenServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -302,65 +30,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1151842972">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="jsp" value="4" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="JSP" value="4" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="10" />
+          <entry key="jsp" value="10" />
+          <entry key="properties" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10" />
+          <entry key="JSP" value="10" />
+          <entry key="Properties" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="843" column="31" lean-forward="true" selection-start-line="843" selection-start-column="31" selection-end-line="843" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="888" column="13" lean-forward="true" selection-start-line="888" selection-start-column="13" selection-end-line="888" selection-end-column="13" />
-              <folding>
-                <element signature="e#17947#17952#0#HTML" expanded="true" />
-                <element signature="e#21520#21525#0#HTML" expanded="true" />
-                <element signature="e#25557#25562#0#HTML" expanded="true" />
-                <element signature="e#32864#32869#0#HTML" expanded="true" />
-                <element signature="e#33174#33179#0#HTML" expanded="true" />
-                <element signature="e#37256#37261#0#HTML" expanded="true" />
-                <element signature="e#41834#41840#0#HTML" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#46503#46509#0#HTML" expanded="true" />
-                <element signature="e#46551#46557#0#HTML" expanded="true" />
-                <element signature="e#46558#46564#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBumen.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="45" column="10" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -370,73 +99,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="mybatis-config" />
-        <option value="mybatisMapper" />
-        <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>assets</find>
+      <find>assets/</find>
+      <find>Form Elements</find>
     </findStrings>
     <replaceStrings>
-      <replace />
-      <replace>/assets</replace>
+      <replace>/assets/</replace>
     </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/main/resource/spring</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
+      <GitPushTagMode />
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybatis-generator.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/CanYuMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/FuKuanMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/GongYingMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/GongYingShangMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/RenWuFenJieMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/ShangDiMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/ShouShanYangRenMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/ZaiZhiZhuangTaiMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/CanYuMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resource/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resource/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/assets/insertBumen.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/ID.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/ID_manag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/utils/ID_manag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/BuMenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBumen.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -445,27 +140,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="/usr/local/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="/usr/local/apache-maven-3.6.1/conf/settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1366" />
-    <option name="height" value="768" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="50" />
+    <option name="width" value="3500" />
+    <option name="height" value="1810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -542,14 +225,6 @@
               <item name="arcompany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="arcompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arcompany" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -573,30 +248,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559205440091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559451162454" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="spring" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/utils" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -610,22 +273,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.17">
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.utils.Generator" />
-      <module name="arcompany" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 9.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8079/index.jsp" />
+  <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="arcompany:war">
@@ -635,16 +285,15 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_arcompany" />
-        <option name="HTTP_PORT" value="8079" />
+        <option name="BASE_DIRECTORY_NAME" value="_arcompany" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63215" />
+        <option name="DEBUG_PORT" value="58896" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -698,23 +347,59 @@
         </option>
       </method>
     </configuration>
-    <configuration name="allBumen.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/allBumen.jsp" />
+    <configuration name="arcompany" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8079/index.jsp" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="arcompany:war exploded">
+        <artifact name="arcompany:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/arcompany_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="allBumen_jsp_arcompany" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_arcompany" />
+        <option name="HTTP_PORT" value="8079" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58896" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -733,395 +418,134 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="arcompany:war exploded" />
+          <artifact name="arcompany:war" />
         </option>
       </method>
     </configuration>
-    <configuration name="department.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/department.jsp" />
-      <deployment>
-        <artifact name="arcompany:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/arcompany_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="department_jsp_arcompany" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="arcompany:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Generator" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.17" />
-      <item itemvalue="Tomcat Server.department.jsp" />
-      <item itemvalue="Tomcat Server.allBumen.jsp" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Tomcat Server.allBumen.jsp" />
-        <item itemvalue="Tomcat Server.department.jsp" />
-        <item itemvalue="Application.Generator" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="700835aa-d0bc-431c-bc43-12ad580e7ac9" name="Default Changelist" comment="" />
-      <created>1558188704934</created>
+      <changelist id="a57b9b15-82ac-4e2e-a8cb-1b0a2159a374" name="Default Changelist" comment="" />
+      <created>1559391454714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558188704934</updated>
-      <workItem from="1558188707807" duration="4515000" />
-      <workItem from="1558246814953" duration="276000" />
-      <workItem from="1558247896416" duration="7667000" />
-      <workItem from="1558364683289" duration="2110000" />
-      <workItem from="1558507452198" duration="255000" />
-      <workItem from="1558508462450" duration="2061000" />
-      <workItem from="1558621907815" duration="3965000" />
-      <workItem from="1558709882503" duration="1225000" />
-      <workItem from="1558778937402" duration="3920000" />
-      <workItem from="1559026984643" duration="1053000" />
-      <workItem from="1559105783866" duration="4011000" />
-      <workItem from="1559195481138" duration="5404000" />
+      <updated>1559391454714</updated>
+      <workItem from="1559391459300" duration="1340000" />
+      <workItem from="1559392950525" duration="1277000" />
+      <workItem from="1559450174954" duration="882000" />
     </task>
-    <task id="LOCAL-00001" summary="创建了项目&#10;完成了与department相关的部分操作">
-      <created>1559108413861</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1559108413861</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36517000" />
+    <option name="totallyTimeSpent" value="3499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21148036" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2283992" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295129" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6561605" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6487252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295129" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295129" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295129" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19939578" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6561605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295129" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295129" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="CDI" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="创建了项目&#10;完成了与department相关的部分操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建了项目&#10;完成了与department相关的部分操作" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis-generator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/Generator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/CanYuKey.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/ZaiZhiZhuangTaiMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/FuKuanMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/CanYuMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/RenWuFenJieMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/GongYingShangMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/ShangDiMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/ShouShanYangRenMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/GongYingMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/FuKuanMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/CanYuMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/spin.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/ID.java" />
-    <entry file="jar://$USER_HOME$/Documents/JavaRepo/org/springframework/spring-beans/5.0.3.RELEASE/spring-beans-5.0.3.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/db.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/ID_manag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2913">
-          <caret line="37" column="19" lean-forward="true" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="600">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/BuMenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="89" selection-start-line="1" selection-start-column="89" selection-end-line="1" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBumen.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="96">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="888" column="13" lean-forward="true" selection-start-line="888" selection-start-column="13" selection-end-line="888" selection-end-column="13" />
+        <state relative-caret-position="608">
+          <caret line="60" selection-start-line="60" selection-end-line="811" selection-end-column="18" />
           <folding>
-            <element signature="e#17947#17952#0#HTML" expanded="true" />
-            <element signature="e#21520#21525#0#HTML" expanded="true" />
-            <element signature="e#25557#25562#0#HTML" expanded="true" />
-            <element signature="e#32864#32869#0#HTML" expanded="true" />
-            <element signature="e#33174#33179#0#HTML" expanded="true" />
-            <element signature="e#37256#37261#0#HTML" expanded="true" />
-            <element signature="e#41834#41840#0#HTML" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#46503#46509#0#HTML" expanded="true" />
-            <element signature="e#46551#46557#0#HTML" expanded="true" />
-            <element signature="e#46558#46564#0#HTML" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="843" column="31" lean-forward="true" selection-start-line="843" selection-start-column="31" selection-end-line="843" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

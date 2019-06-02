@@ -28,7 +28,7 @@ public class BuMenController {
 
     @RequestMapping("toInsertBumen")
     public String toInsertBumen(){
-        return "insertBumen";
+        return "insertDepartment";
     }
 
     @RequestMapping("/insertBumen")
