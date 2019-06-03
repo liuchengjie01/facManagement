@@ -8,15 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a57b9b15-82ac-4e2e-a8cb-1b0a2159a374" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/BuMenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/BuMenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/dao/BuMenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/dao/BuMenDao.class" afterDir="false" />
@@ -42,7 +33,7 @@
     <session id="-1151842972">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.42" value="1" />
@@ -73,7 +64,7 @@
           <entry key="java" value="485" />
           <entry key="jsp" value="176" />
           <entry key="properties" value="2" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="43" />
           <entry key="xml" value="285" />
         </counts>
       </usages-collector>
@@ -81,7 +72,7 @@
         <counts>
           <entry key="JAVA" value="485" />
           <entry key="JSP" value="176" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="Properties" value="2" />
           <entry key="SQL" value="12" />
           <entry key="XML" value="273" />
@@ -349,7 +340,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559548669628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559555655881" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -532,7 +523,7 @@
       <workItem from="1559450174954" duration="1944000" />
       <workItem from="1559458384611" duration="8295000" />
       <workItem from="1559546961311" duration="1643000" />
-      <workItem from="1559551318272" duration="2014000" />
+      <workItem from="1559551318272" duration="2122000" />
     </task>
     <task id="LOCAL-00001" summary="更新了插入部门的页面，修改了路由逻辑">
       <created>1559451355846</created>
@@ -541,11 +532,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559451355846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成了针对部门的增删改查，没有考虑外键关联">
+      <created>1559555635672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559555635672</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16513000" />
+    <option name="totallyTimeSpent" value="16621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -593,7 +591,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了插入部门的页面，修改了路由逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了插入部门的页面，修改了路由逻辑" />
+    <MESSAGE value="完成了针对部门的增删改查，没有考虑外键关联" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了针对部门的增删改查，没有考虑外键关联" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">

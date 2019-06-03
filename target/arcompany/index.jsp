@@ -13,7 +13,11 @@
             color: black;
             font-size: 18px;
         }
+        h1 {
 
+          text-align: center;
+
+        }
         h3 {
             width: 180px;
             height: 38px;
@@ -31,7 +35,7 @@
         <div class="col-md-12 column">
             <div class="page-header">
                 <h1>
-                    基于SSM框架的管理系统：简单实现增、删、改、查。
+                    卡通建筑公司管理平台
                 </h1>
             </div>
         </div>
