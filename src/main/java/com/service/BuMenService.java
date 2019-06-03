@@ -12,4 +12,10 @@ public interface BuMenService {
 
     int addBumen(BuMen bumenRecord);
 
+    int deleteBumenByID(String id);
+
+    int updateBumen(BuMen bumen);
+
+    BuMen queryByID(String id);
+
 }

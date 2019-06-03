@@ -26,4 +26,15 @@ public class BuMenServiceImpl implements BuMenService {
         return buDao.addBumen(bumenRecord);
     }
 
+    @Override
+    public int deleteBumenByID(String id){
+      return buDao.deleteBumenByID(id);
+    }
+
+    @Override
+    public int updateBumen(BuMen bumen){return buDao.updateBumen(bumen);}
+
+    @Override
+    public BuMen queryByID(String id){return buDao.queryByID(id);}
+
 }

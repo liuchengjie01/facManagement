@@ -911,8 +911,8 @@
                                             <td>${Bumen.departmentName}</td>
                                             <td>${Bumen.managerID}</td>
                                             <td>
-                                                <a href="${path}/BuMen/allBumen?id=${Bumen.departmentID}">更改</a> |
-                                                <a href="${path}/BuMen/allBumen?id=${Bumen.departmentID}">删除</a>
+                                                <a href="<%=appPath%>/BuMen/toUpdateBuMen/${Bumen.departmentID}">更改</a>
+                                                <a href="<%=appPath%>/BuMen/del/${Bumen.departmentID}">删除</a>
                                             </td>
                                         </tr>
                                     </c:forEach>
