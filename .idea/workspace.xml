@@ -7,20 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a57b9b15-82ac-4e2e-a8cb-1b0a2159a374" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/adminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/adminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/adminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/adminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/adminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBumen.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/controller/BuMenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/dao/BuMenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/dao/BuMenDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/BuMenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/BuMenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/impl/BuMenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/com/service/impl/BuMenServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/mapper/BuMenMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/department.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/insertBumen.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/controller/BuMenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/controller/BuMenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dao/BuMenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dao/BuMenDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/BuMenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/BuMenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/service/impl/BuMenServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/service/impl/BuMenServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BuMenMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/META-INF/arcompany.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/allBumen.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,79 +36,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1151842972">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.65" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="18" />
-          <entry key="jsp" value="16" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="18" />
-          <entry key="JSP" value="16" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="485" />
-          <entry key="jsp" value="176" />
-          <entry key="properties" value="2" />
-          <entry key="txt" value="43" />
-          <entry key="xml" value="285" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="485" />
-          <entry key="JSP" value="176" />
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Properties" value="2" />
-          <entry key="SQL" value="12" />
-          <entry key="XML" value="273" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+            <state relative-caret-position="1056">
+              <caret line="48" column="55" lean-forward="true" selection-end-line="347" />
+              <folding>
+                <element signature="e#2144#2150#0#HTML" expanded="true" />
+                <element signature="e#12561#12567#0#HTML" expanded="true" />
+                <element signature="e#12657#12663#0#HTML" expanded="true" />
+                <element signature="e#12740#12746#0#HTML" expanded="true" />
+                <element signature="e#12836#12842#0#HTML" expanded="true" />
+                <element signature="e#12919#12925#0#HTML" expanded="true" />
+                <element signature="e#13017#13023#0#HTML" expanded="true" />
+                <element signature="e#13024#13030#0#HTML" expanded="true" />
+                <element signature="e#13031#13037#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/adminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+            <state relative-caret-position="365">
+              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -109,26 +84,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+            <state relative-caret-position="7634">
+              <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+              <folding>
+                <element signature="e#2370#2376#0#HTML" expanded="true" />
+                <element signature="e#12787#12793#0#HTML" expanded="true" />
+                <element signature="e#12883#12889#0#HTML" expanded="true" />
+                <element signature="e#12966#12972#0#HTML" expanded="true" />
+                <element signature="e#13062#13068#0#HTML" expanded="true" />
+                <element signature="e#13145#13151#0#HTML" expanded="true" />
+                <element signature="e#13243#13249#0#HTML" expanded="true" />
+                <element signature="e#13250#13256#0#HTML" expanded="true" />
+                <element signature="e#13257#13263#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,8 +106,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
+        <option value="mybatisMapper" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -147,10 +116,13 @@
     <findStrings>
       <find>assets/</find>
       <find>Form Elements</find>
+      <find>username</find>
+      <find>assets</find>
     </findStrings>
     <replaceStrings>
       <replace>/assets/</replace>
       <replace>BuMen</replace>
+      <replace>/assets</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -167,20 +139,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/service/BuMenService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/admin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/adminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/adminDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/adminDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/adminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/adminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/adminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -189,20 +165,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="225" />
-    <option name="y" value="35" />
-    <option name="width" value="1550" />
-    <option name="height" value="840" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,6 +294,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arcompany" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arcompany" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,10 +323,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559555655881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559812164172" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
@@ -372,11 +358,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_arcompany" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="58896" />
       </RunnerSettings>
@@ -429,10 +415,11 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="arcompany:war" />
+          <artifact name="arcompany:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration name="arcompany" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="arcompany" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8079/index.jsp" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8 " />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -447,11 +434,11 @@
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_arcompany" />
         <option name="HTTP_PORT" value="8079" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="58896" />
       </RunnerSettings>
@@ -524,6 +511,10 @@
       <workItem from="1559458384611" duration="8295000" />
       <workItem from="1559546961311" duration="1643000" />
       <workItem from="1559551318272" duration="2122000" />
+      <workItem from="1559635377989" duration="105000" />
+      <workItem from="1559660900599" duration="2935000" />
+      <workItem from="1559806824759" duration="630000" />
+      <workItem from="1559808656700" duration="3190000" />
     </task>
     <task id="LOCAL-00001" summary="更新了插入部门的页面，修改了路由逻辑">
       <created>1559451355846</created>
@@ -543,12 +534,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16621000" />
+    <option name="totallyTimeSpent" value="23673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20090635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -558,12 +550,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44842562" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44555873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32772276" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -571,6 +563,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -581,13 +574,11 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了插入部门的页面，修改了路由逻辑" />
@@ -611,13 +602,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/tesyt.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="913" column="90" selection-start-line="913" selection-start-column="90" selection-end-line="913" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -625,78 +609,285 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#5019#5024#0#HTML" expanded="true" />
+            <element signature="e#8592#8597#0#HTML" expanded="true" />
+            <element signature="e#12629#12634#0#HTML" expanded="true" />
+            <element signature="e#19936#19941#0#HTML" expanded="true" />
+            <element signature="e#20246#20251#0#HTML" expanded="true" />
+            <element signature="e#24328#24333#0#HTML" expanded="true" />
+            <element signature="e#28906#28912#0#HTML" expanded="true" />
+            <element signature="e#34908#34914#0#HTML" expanded="true" />
+            <element signature="e#34956#34962#0#HTML" expanded="true" />
+            <element signature="e#34963#34969#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/BuMenService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="88">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/adminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/adminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/adminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="25" lean-forward="true" selection-end-line="133" />
+        <state relative-caret-position="189">
+          <caret line="1102" column="12" lean-forward="true" selection-start-line="1102" selection-start-column="12" selection-end-line="1102" selection-end-column="12" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17507#17512#0#HTML" expanded="true" />
+            <element signature="e#21080#21085#0#HTML" expanded="true" />
+            <element signature="e#25106#25111#0#HTML" expanded="true" />
+            <element signature="e#26732#26737#0#HTML" expanded="true" />
+            <element signature="e#27042#27047#0#HTML" expanded="true" />
+            <element signature="e#31124#31129#0#HTML" expanded="true" />
+            <element signature="e#35720#35726#0#HTML" expanded="true" />
+            <element signature="e#42250#42256#0#HTML" expanded="true" />
+            <element signature="e#42298#42304#0#HTML" expanded="true" />
+            <element signature="e#42305#42311#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="117" column="27" lean-forward="true" selection-start-line="117" selection-start-column="27" selection-end-line="117" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="7" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/adminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="110">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="60" selection-start-line="60" selection-end-line="944" selection-end-column="7" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="108" column="43" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+        <state relative-caret-position="-1945">
+          <caret line="14" column="2" selection-start-line="7" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/adminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="55" lean-forward="true" selection-end-line="347" />
+          <folding>
+            <element signature="e#2144#2150#0#HTML" expanded="true" />
+            <element signature="e#12561#12567#0#HTML" expanded="true" />
+            <element signature="e#12657#12663#0#HTML" expanded="true" />
+            <element signature="e#12740#12746#0#HTML" expanded="true" />
+            <element signature="e#12836#12842#0#HTML" expanded="true" />
+            <element signature="e#12919#12925#0#HTML" expanded="true" />
+            <element signature="e#13017#13023#0#HTML" expanded="true" />
+            <element signature="e#13024#13030#0#HTML" expanded="true" />
+            <element signature="e#13031#13037#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="7634">
+          <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+          <folding>
+            <element signature="e#2370#2376#0#HTML" expanded="true" />
+            <element signature="e#12787#12793#0#HTML" expanded="true" />
+            <element signature="e#12883#12889#0#HTML" expanded="true" />
+            <element signature="e#12966#12972#0#HTML" expanded="true" />
+            <element signature="e#13062#13068#0#HTML" expanded="true" />
+            <element signature="e#13145#13151#0#HTML" expanded="true" />
+            <element signature="e#13243#13249#0#HTML" expanded="true" />
+            <element signature="e#13250#13256#0#HTML" expanded="true" />
+            <element signature="e#13257#13263#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>arcompany:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>arcompany</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
