@@ -7,27 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a57b9b15-82ac-4e2e-a8cb-1b0a2159a374" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/adminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/adminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/adminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/adminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/adminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/departmentfieldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/departmentfieldDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/departmentfield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/departmentfieldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/service/impl/departmentfieldServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/departmentfieldMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentfield.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartmentField.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartmentfield.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allBumen.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/arcompany.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/META-INF/arcompany.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/allBumen.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/jsp/insertBumen.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/arcompany/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/arcompany/WEB-INF/classes/mapper/BuMenMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BuMenMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BuMenMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,64 +34,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentfield.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="55" lean-forward="true" selection-end-line="347" />
-              <folding>
-                <element signature="e#2144#2150#0#HTML" expanded="true" />
-                <element signature="e#12561#12567#0#HTML" expanded="true" />
-                <element signature="e#12657#12663#0#HTML" expanded="true" />
-                <element signature="e#12740#12746#0#HTML" expanded="true" />
-                <element signature="e#12836#12842#0#HTML" expanded="true" />
-                <element signature="e#12919#12925#0#HTML" expanded="true" />
-                <element signature="e#13017#13023#0#HTML" expanded="true" />
-                <element signature="e#13024#13030#0#HTML" expanded="true" />
-                <element signature="e#13031#13037#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/adminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="129">
+              <caret line="904" selection-start-line="904" selection-end-line="904" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7634">
-              <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
+            <state relative-caret-position="1727">
+              <caret line="918" column="132" selection-start-line="918" selection-start-column="132" selection-end-line="918" selection-end-column="132" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/departmentfieldController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
-                <element signature="e#2370#2376#0#HTML" expanded="true" />
-                <element signature="e#12787#12793#0#HTML" expanded="true" />
-                <element signature="e#12883#12889#0#HTML" expanded="true" />
-                <element signature="e#12966#12972#0#HTML" expanded="true" />
-                <element signature="e#13062#13068#0#HTML" expanded="true" />
-                <element signature="e#13145#13151#0#HTML" expanded="true" />
-                <element signature="e#13243#13249#0#HTML" expanded="true" />
-                <element signature="e#13250#13256#0#HTML" expanded="true" />
-                <element signature="e#13257#13263#0#HTML" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartmentField.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="125" column="72" selection-start-line="125" selection-start-column="72" selection-end-line="125" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartmentfield.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="110" column="80" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/departmentfieldService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/departmentfieldServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/departmentfieldDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/departmentfield.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/departmentfieldMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -106,9 +142,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="mybatisMapper" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -138,23 +174,34 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dao/BuMenDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/BuMenService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertBumen.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartment.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/pojo/admin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/adminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/adminDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/adminDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/impl/adminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/adminMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/404.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/controller/adminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/departAndField.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/departAndFiled.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pojo/departmentfield.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartmentField.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartmentfield.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/departmentfieldService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/service/impl/departmentfieldServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dao/departmentfieldDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/departmentfieldMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/controller/departmentfieldController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentfield.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp" />
       </list>
     </option>
   </component>
@@ -165,7 +212,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -286,7 +333,8 @@
               <item name="arcompany" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arcompany" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +342,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="arcompany" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +370,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559812164172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559838832626" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,6 +378,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -514,7 +566,7 @@
       <workItem from="1559635377989" duration="105000" />
       <workItem from="1559660900599" duration="2935000" />
       <workItem from="1559806824759" duration="630000" />
-      <workItem from="1559808656700" duration="3190000" />
+      <workItem from="1559808656700" duration="18399000" />
     </task>
     <task id="LOCAL-00001" summary="更新了插入部门的页面，修改了路由逻辑">
       <created>1559451355846</created>
@@ -530,17 +582,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559555635672</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加了登陆操作，具体的用户名和密码可以在数据库admin表中查看（admin,admin）等，添加了主界面，在主界面中可以点击部门跳转到部门相关">
+      <created>1559812301078</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559812301078</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23673000" />
+    <option name="totallyTimeSpent" value="38882000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20090635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14164004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -550,7 +609,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44555873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44554454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -559,10 +618,10 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32970297" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32808024" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -576,6 +635,43 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14164004" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44554454" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32772276" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32970297" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32808024" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -583,7 +679,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新了插入部门的页面，修改了路由逻辑" />
     <MESSAGE value="完成了针对部门的增删改查，没有考虑外键关联" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了针对部门的增删改查，没有考虑外键关联" />
+    <MESSAGE value="增加了登陆操作，具体的用户名和密码可以在数据库admin表中查看（admin,admin）等，添加了主界面，在主界面中可以点击部门跳转到部门相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了登陆操作，具体的用户名和密码可以在数据库admin表中查看（admin,admin）等，添加了主界面，在主界面中可以点击部门跳转到部门相关" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resource/log4j.properties">
@@ -627,39 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#5019#5024#0#HTML" expanded="true" />
-            <element signature="e#8592#8597#0#HTML" expanded="true" />
-            <element signature="e#12629#12634#0#HTML" expanded="true" />
-            <element signature="e#19936#19941#0#HTML" expanded="true" />
-            <element signature="e#20246#20251#0#HTML" expanded="true" />
-            <element signature="e#24328#24333#0#HTML" expanded="true" />
-            <element signature="e#28906#28912#0#HTML" expanded="true" />
-            <element signature="e#34908#34914#0#HTML" expanded="true" />
-            <element signature="e#34956#34962#0#HTML" expanded="true" />
-            <element signature="e#34963#34969#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/BuMenService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/adminDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -681,16 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,38 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="60" selection-start-line="60" selection-end-line="944" selection-end-column="7" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1945">
-          <caret line="14" column="2" selection-start-line="7" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/adminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -796,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7634">
+        <state relative-caret-position="519">
           <caret line="347" lean-forward="true" selection-start-line="347" selection-end-line="347" />
           <folding>
             <element signature="e#2370#2376#0#HTML" expanded="true" />
@@ -809,6 +831,211 @@
             <element signature="e#13250#13256#0#HTML" expanded="true" />
             <element signature="e#13257#13263#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/BuMenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/BuMenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/departAndField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/BuMen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/departAndFiled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/BuMenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="563" column="53" lean-forward="true" selection-start-line="563" selection-start-column="53" selection-end-line="563" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="108" column="23" selection-start-line="108" selection-start-column="23" selection-end-line="108" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pojo/departmentfield.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/BuMenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/insertDepartmentField.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="125" column="72" selection-start-line="125" selection-start-column="72" selection-end-line="125" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updateDepartmentfield.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="110" column="80" selection-start-line="110" selection-start-column="80" selection-end-line="110" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/departmentfieldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/departmentfieldDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/impl/departmentfieldServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/departmentfieldMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/controller/departmentfieldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/departmentfield.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="904" selection-start-line="904" selection-end-line="904" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/department.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1727">
+          <caret line="918" column="132" selection-start-line="918" selection-start-column="132" selection-end-line="918" selection-end-column="132" />
         </state>
       </provider>
     </entry>

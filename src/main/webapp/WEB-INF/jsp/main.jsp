@@ -393,6 +393,15 @@
 
                         <b class="arrow"></b>
                     </li>
+                    <li class="active">
+                        <a href="${path}/departmentfield/alldepartmentfield">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            部门场地
+                        </a>
+
+                        <b class="arrow"></b>
+                    </li>
+
 
                     <li class="active">
                         <a href="dependant.html">

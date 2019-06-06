@@ -9,6 +9,7 @@
         <result property="departmentName" column="department_name"/>
         <result property="managerID" column="manager_id"/>
     </resultMap>
+
     <select id="queryAllBuMen" resultMap="BuMenResultMap">
         SELECT *
         FROM department
