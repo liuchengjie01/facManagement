@@ -33,7 +33,7 @@
         departmentfield_id = #{departmentfieldID}
     </select>
 
-    <insert id="adddepartmentfield" parameterType="admin">
+    <insert id="adddepartmentfield" parameterType="departmentfield">
         insert into departmentfield (departmentfield_id,department_id,depart_add)
         values
         (#{departmentfieldID},#{departmentID},#{departAdd})
@@ -48,7 +48,7 @@
         departmentfield_id = #{departmentfieldID}
     </delete>
 
-    <update id="updatedepartmentfield" parameterType="admin">
+    <update id="updatedepartmentfield" parameterType="departmentfield">
         UPDATE department
         set depart_add = #{departAdd}
         WHERE

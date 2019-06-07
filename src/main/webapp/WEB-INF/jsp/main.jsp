@@ -462,18 +462,9 @@
 
                 <ul class="submenu">
                     <li class="active">
-                        <a href="project.html">
+                        <a href="${path}/project/allproject">
                             <i class="menu-icon fa fa-caret-right"></i>
                             项目表
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-                    <li class="active">
-                        <a href="assignment.html">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            项目任务表
                         </a>
 
                         <b class="arrow"></b>

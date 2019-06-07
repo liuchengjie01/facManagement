@@ -902,6 +902,7 @@
                                         <th>部门名字</th>
                                         <th>部门经理</th>
                                         <th>操作</th>
+                                        <th>本部门办公室</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -913,6 +914,9 @@
                                             <td>
                                                 <a href="<%=appPath%>/BuMen/toUpdateBuMen/${Bumen.departmentID}">更改</a>
                                                 <a href="<%=appPath%>/BuMen/del/${Bumen.departmentID}">删除</a>
+                                            </td>
+                                            <td>
+                                                <a href="<%=appPath%>/departmentfield/thedepartmentfield/depart/${Bumen.departmentID}">场地</a>
                                             </td>
                                         </tr>
                                     </c:forEach>

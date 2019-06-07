@@ -46,8 +46,6 @@ public class departmentfieldController {
 
     @RequestMapping("/del/depart/{departmentID}/field/{departmentfieldID}")
     public String deletedepartmentfieldByID(@PathVariable("departmentID") String departmentID,@PathVariable("departmentfieldID") String departmentfieldID) {
-        System.out.println(departmentID);
-        System.out.println(departmentfieldID);
         dService.deletedepartmentfieldByID(departmentID,departmentfieldID);
         return "redirect:/departmentfield/alldepartmentfield";
     }
