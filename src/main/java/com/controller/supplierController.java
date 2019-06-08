@@ -49,7 +49,7 @@ public class supplierController {
     }
 
     @RequestMapping("/updatesupplier")
-    public String updateProject(Model model, supplier pj) {
+    public String updateSupply(Model model, supplier pj) {
         sService.updateSupplier(pj);
         pj = sService.querySupplierByID(pj.getSupplier_id());
         model.addAttribute("supplier", pj);

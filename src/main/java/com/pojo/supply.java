@@ -7,7 +7,7 @@ public class supply {
     private String price;
     private String amount;
     private String unit;
-    private String Date;
+    private String starttime;
 
     @Override
     public String toString() {
@@ -17,7 +17,7 @@ public class supply {
                 ", price='" + price + '\'' +
                 ", amount='" + amount + '\'' +
                 ", unit='" + unit + '\'' +
-                ", Date='" + Date + '\'' +
+                ", starttime='" + starttime + '\'' +
                 '}';
     }
 
@@ -61,11 +61,11 @@ public class supply {
         this.unit = unit;
     }
 
-    public String getDate() {
-        return Date;
+    public String getStarttime() {
+        return starttime;
     }
 
-    public void setDate(String date) {
-        Date = date;
+    public void setStarttime(String starttime) {
+        this.starttime = starttime;
     }
 }

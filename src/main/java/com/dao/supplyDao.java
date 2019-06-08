@@ -1,6 +1,7 @@
 package com.dao;
 
 import com.pojo.supply;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -9,9 +10,9 @@ public interface supplyDao {
 
     int addSupply(supply sp);
 
-    int deleteSupplyByID(String supplier_id,String material_id);
+    int deleteSupplyByID(@Param("supplier_id")String supplier_id,@Param("material_id") String material_id);
 
     int updateSupply(supply sp);
 
-    supply querySupplyByID(String supplier_id,String material_id);
+    supply querySupplyByID(@Param("supplier_id")String supplier_id,@Param("material_id") String material_id);
 }

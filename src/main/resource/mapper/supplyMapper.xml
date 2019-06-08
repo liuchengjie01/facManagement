@@ -10,7 +10,7 @@
         <result property="price" column="price"/>
         <result property="amount" column="amount"/>
         <result property="unit" column="unit"/>
-        <result property="Date" column="Date"/>
+        <result property="starttime" column="starttime"/>
 
     </resultMap>
 
@@ -32,9 +32,9 @@
     </select>
 
     <insert id="addSupply" parameterType="supply">
-        insert into departmentfield (supplier_id,material_id,price,amount,unit,Date)
+        insert into supply (supplier_id,material_id,price,amount,unit,starttime)
         values
-        (#{supplier_id},#{dmaterial_id},#{price},#{amount},#{unit},#{Date})
+        (#{supplier_id},#{material_id},#{price},#{amount},#{unit},#{starttime})
     </insert>
 
     <delete id="deleteSupplyByID" parameterType="String">
@@ -51,7 +51,7 @@
         <set>
             <if test="price != null">price = #{price},</if>
             <if test="amount != null">amount = #{amount}</if>
-            <if test="Date != null">Date = #{Date}</if>
+            <if test="starttime != null">starttime = #{starttime}</if>
         </set>
         where
         supplier_id = #{supplier_id}
