@@ -19,7 +19,6 @@ public class departmentfieldController {
 
     @Autowired
     private departmentfieldService dService;
-    private BuMenService buMenService;
 
     @RequestMapping("/alldepartmentfield")
     public String list(Model model) {

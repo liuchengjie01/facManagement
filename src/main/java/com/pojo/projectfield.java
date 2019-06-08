@@ -4,14 +4,15 @@ public class projectfield {
 
     private String projectfield_id;
     private String project_id;
-    private String project_location;
+    private String projectfield_location;
+
 
     @Override
     public String toString() {
         return "projectfield{" +
                 "projectfield_id='" + projectfield_id + '\'' +
                 ", project_id='" + project_id + '\'' +
-                ", project_location='" + project_location + '\'' +
+                ", projectfield_location='" + projectfield_location + '\'' +
                 '}';
     }
 
@@ -31,11 +32,11 @@ public class projectfield {
         this.project_id = project_id;
     }
 
-    public String getProject_location() {
-        return project_location;
+    public String getProjectfield_location() {
+        return projectfield_location;
     }
 
-    public void setProject_location(String project_location) {
-        this.project_location = project_location;
+    public void setProjectfield_location(String projectfield_location) {
+        this.projectfield_location = projectfield_location;
     }
 }

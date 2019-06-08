@@ -471,7 +471,7 @@
                     </li>
 
                     <li class="active">
-                        <a href="projectfield.html">
+                        <a href="${path}/projectfield/allprojectfield">
                             <i class="menu-icon fa fa-caret-right"></i>
                             项目场地表
                         </a>
