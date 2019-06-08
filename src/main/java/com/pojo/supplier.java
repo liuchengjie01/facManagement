@@ -3,17 +3,17 @@ package com.pojo;
 public class supplier {
 
     private String supplier_id;
-    private String supplier_name;
+    private String supplier_cname;
     private String supplier_contact;
-    private String supplier_list;
+    private String supplier_tel;
 
     @Override
     public String toString() {
         return "supplier{" +
                 "supplier_id='" + supplier_id + '\'' +
-                ", supplier_name='" + supplier_name + '\'' +
+                ", supplier_cname='" + supplier_cname + '\'' +
                 ", supplier_contact='" + supplier_contact + '\'' +
-                ", supplier_list='" + supplier_list + '\'' +
+                ", supplier_tel='" + supplier_tel + '\'' +
                 '}';
     }
 
@@ -25,12 +25,12 @@ public class supplier {
         this.supplier_id = supplier_id;
     }
 
-    public String getSupplier_name() {
-        return supplier_name;
+    public String getSupplier_cname() {
+        return supplier_cname;
     }
 
-    public void setSupplier_name(String supplier_name) {
-        this.supplier_name = supplier_name;
+    public void setSupplier_cname(String supplier_cname) {
+        this.supplier_cname = supplier_cname;
     }
 
     public String getSupplier_contact() {
@@ -41,11 +41,11 @@ public class supplier {
         this.supplier_contact = supplier_contact;
     }
 
-    public String getSupplier_list() {
-        return supplier_list;
+    public String getSupplier_tel() {
+        return supplier_tel;
     }
 
-    public void setSupplier_list(String supplier_list) {
-        this.supplier_list = supplier_list;
+    public void setSupplier_tel(String supplier_tel) {
+        this.supplier_tel = supplier_tel;
     }
 }

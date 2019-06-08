@@ -6,9 +6,9 @@
 <mapper namespace="com.dao.supplierDao">
     <resultMap type="supplier" id="supplierResultMap">
         <id property="supplier_id" column="supplier_id"/>
-        <result property="supplier_name" column="supplier_name"/>
+        <result property="supplier_cname" column="supplier_cname"/>
         <result property="supplier_contact" column="supplier_contact"/>
-        <result property="supplier_list" column="supplier_list"/>
+        <result property="supplier_tel" column="supplier_tel"/>
     </resultMap>
 
 
@@ -25,11 +25,10 @@
     </select>
 
 
-
     <insert id="addSupplier" parameterType="supplier">
-        insert into supplier (supplier_id,supplier_name,supplier_contact,supplier_list)
+        insert into supplier (supplier_id,supplier_cname,supplier_contact,supplier_tel)
         values
-        (#{supplier_id},#{supplier_name},#{supplier_contact},#{supplier_list})
+        (#{supplier_id},#{supplier_cname},#{supplier_contact},#{supplier_tel})
     </insert>
 
     <delete id="deleteSupplierByID" parameterType="String">
@@ -42,12 +41,11 @@
     <update id="updateSupplier" parameterType="supplier">
         UPDATE supplier
         <set>
-
+            <if test="supplier_cname != null">supplier_cname = #{supplier_cname},</if>
             <if test="supplier_contact != null">supplier_contact = #{supplier_contact},</if>
-            <if test="supplier_list != null">supplier_list = #{supplier_list}</if>
-
+            <if test="supplier_tel != null">supplier_tel = #{supplier_tel}</if>
         </set>
         WHERE
-        project_id = #{project_id}
+        supplier_id = #{supplier_id}
     </update>
 </mapper>

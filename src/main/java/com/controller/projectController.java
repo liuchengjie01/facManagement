@@ -26,7 +26,6 @@ public class projectController {
 
     @RequestMapping("toInsertproject")
     public String toInsertproject(){
-        System.out.println("test");
         return "insertProject";
     }
 

@@ -386,22 +386,13 @@
                     </li>
 
                     <li class="active">
-                        <a href="${path}/BuMen/allBumen">
+                        <a href="department.html">
                             <i class="menu-icon fa fa-caret-right"></i>
                             部门表
                         </a>
 
                         <b class="arrow"></b>
                     </li>
-                    <li class="active">
-                        <a href="${path}/departmentfield/alldepartmentfield">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            部门场地
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
 
                     <li class="active">
                         <a href="dependant.html">
@@ -462,7 +453,7 @@
 
                 <ul class="submenu">
                     <li class="active">
-                        <a href="${path}/project/allproject">
+                        <a href="project.html">
                             <i class="menu-icon fa fa-caret-right"></i>
                             项目表
                         </a>
@@ -471,7 +462,16 @@
                     </li>
 
                     <li class="active">
-                        <a href="${path}/projectfield/allprojectfield">
+                        <a href="assignment.html">
+                            <i class="menu-icon fa fa-caret-right"></i>
+                            项目任务表
+                        </a>
+
+                        <b class="arrow"></b>
+                    </li>
+
+                    <li class="active">
+                        <a href="projectfield.html">
                             <i class="menu-icon fa fa-caret-right"></i>
                             项目场地表
                         </a>
@@ -523,15 +523,6 @@
                         <a href="material.html">
                             <i class="menu-icon fa fa-caret-right"></i>
                             材料表
-                        </a>
-
-                        <b class="arrow"></b>
-                    </li>
-
-                    <li class="active">
-                        <a href="${path}/supplier/allsupplier">
-                            <i class="menu-icon fa fa-caret-right"></i>
-                            供应商
                         </a>
 
                         <b class="arrow"></b>
@@ -888,8 +879,58 @@
                     </div><!-- /.ace-settings-box -->
                 </div><!-- /.ace-settings-container -->
 
+                <div class="page-header">
+                    <h1>
+                        部门
+                        <small>
+                            <i class="ace-icon fa fa-angle-double-right"></i>
+                            当前公司的中的各个部门
+                        </small>
+                    </h1>
+                </div><!-- /.page-header -->
 
-
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- PAGE CONTENT BEGINS -->
+                        <table id="grid-table"></table>
+                        <div class="row clearfix">
+                            <div class="col-md-12 column">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th>供应商编号</th>
+                                        <th>供应商名称</th>
+                                        <th>供应商代表</th>
+                                        <th>联系电话</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <c:forEach var="supplier" items="${requestScope.get('list')}" varStatus="status">
+                                        <tr>
+                                            <td>${supplier.supplier_id}</td>
+                                            <td>${supplier.supplier_cname}</td>
+                                            <td>${supplier.supplier_contact}</td>
+                                            <td>${supplier.supplier_tel}</td>
+                                            <td>
+                                                <a href="<%=appPath%>/supplier/toUpdatesupplier/${supplier.supplier_id}">更改</a>
+                                                <a href="<%=appPath%>/supplier/del/${supplier.supplier_id}">删除</a>
+                                            </td>
+                                        </tr>
+                                    </c:forEach>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 column">
+                                <a class="btn btn-primary" href="${path}/supplier/toInsertsupplier">新增</a>
+                            </div>
+                        </div>
+                        <div id="grid-pager"></div>
+                        <!-- PAGE CONTENT ENDS -->
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
             </div><!-- /.page-content -->
         </div>
     </div><!-- /.main-content -->
@@ -953,4 +994,3 @@
 
 </body>
 </html>
-
