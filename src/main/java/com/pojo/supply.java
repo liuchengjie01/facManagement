@@ -17,7 +17,7 @@ public class supply {
                 ", price='" + price + '\'' +
                 ", amount='" + amount + '\'' +
                 ", unit='" + unit + '\'' +
-                ", starttime='" + starttime + '\'' +
+                ", Date='" + starttime + '\'' +
                 '}';
     }
 
@@ -65,7 +65,7 @@ public class supply {
         return starttime;
     }
 
-    public void setStarttime(String starttime) {
-        this.starttime = starttime;
+    public void setStarttime(String date) {
+        starttime = date;
     }
 }

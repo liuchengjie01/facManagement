@@ -6,7 +6,6 @@ public class projectfield {
     private String project_id;
     private String projectfield_location;
 
-
     @Override
     public String toString() {
         return "projectfield{" +

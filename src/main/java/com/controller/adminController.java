@@ -9,9 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.ui.Model;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
 @Controller
 @RequestMapping("/admin")
 public class adminController {
@@ -25,18 +22,9 @@ public class adminController {
     }
 
     @RequestMapping("/login")
-    public String queryByUsername(admin ad, Model model, HttpServletRequest request){
+    public String queryByUsername(admin ad, Model model){
         admin testad = aService.queryByUsername(ad.getUsername());
-        if(testad.toString().isEmpty()){
-            System.out.println("!");
-            model.addAttribute("message","用户名或密码输入错误");
-            return "login";
-        }
-        else if(testad.getPassword().equals(testad.getPassword())){
-            HttpSession session = request.getSession(true);
-            System.out.println(testad.getRole());
-            session.setAttribute("role",testad.getRole());
-            System.out.println(session.getAttribute("role"));
+        if(testad.getPassword().equals(ad.getPassword())){
             return "main";
         }
         else{

@@ -21,7 +21,6 @@ public class supplyController {
     @RequestMapping("/allsupply")
     public String list(Model model){
         List<supply> list = sService.queryAllSupply();
-        System.out.println("!!!");
         model.addAttribute("list", list);
         return "supply";
     }

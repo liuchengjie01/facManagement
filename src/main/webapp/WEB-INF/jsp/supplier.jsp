@@ -909,9 +909,9 @@
                                     <c:forEach var="supplier" items="${requestScope.get('list')}" varStatus="status">
                                         <tr>
                                             <td>${supplier.supplier_id}</td>
-                                            <td>${supplier.supplier_cname}</td>
+                                            <td>${supplier.supplier_name}</td>
                                             <td>${supplier.supplier_contact}</td>
-                                            <td>${supplier.supplier_tel}</td>
+                                            <td>${supplier.supplier_list}</td>
                                             <td>
                                                 <a href="<%=appPath%>/supplier/toUpdatesupplier/${supplier.supplier_id}">更改</a>
                                                 <a href="<%=appPath%>/supplier/del/${supplier.supplier_id}">删除</a>

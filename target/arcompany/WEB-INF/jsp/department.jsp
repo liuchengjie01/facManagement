@@ -929,6 +929,21 @@
                                 <a class="btn btn-primary" href="${path}/BuMen/toInsertBumen">新增</a>
                             </div>
                         </div>
+                        <div>
+                            <form action="" name="userForm">
+                                属性：<input type="text" name="departmentID"><br><br>
+                                取值：<input type="text" name="departmentName"><br><br>
+                                <input type="button" value="查询" onclick="searchBumen()">
+                            </form>
+                            <script type="text/javascript">
+                                function searchBumen() {
+                                    var form = document.forms[1];
+                                    form.action = "<%=appPath%>/BuMen/searchBumen";
+                                    form.method = "post";
+                                    form.submit();
+                                }
+                            </script>
+                        </div>
                         <div id="grid-pager"></div>
                         <!-- PAGE CONTENT ENDS -->
                     </div><!-- /.col -->

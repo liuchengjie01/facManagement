@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.ui.Model;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+import java.util.Iterator;
 import java.util.List;
 
 @Controller
@@ -22,19 +21,45 @@ public class BuMenController {
     private BuMenService buMenService;
 
     @RequestMapping("/allBumen")
-    public String list(Model model, HttpServletRequest request) {
-        HttpSession session = request.getSession();
-        String role = (String)session.getAttribute("role");
-        System.out.println(role);
-        if(role.equals("0")){
-            model.addAttribute("message","对不起，您没有权限！");
-            return "main";
+    public String list(Model model) {
+        List<BuMen> list = buMenService.queryAllBuMen();
+        model.addAttribute("list", list);
+        return "department";
+    }
+
+    @RequestMapping("/searchBumen")
+    public String search(Model model, BuMen iv){
+        System.out.println("**********"+iv.toString());
+        List<BuMen> list = buMenService.queryAllBuMen();
+        Iterator<BuMen> it = list.iterator();
+        String attribute = iv.getDepartmentID();
+        if (attribute.equals("")){
+            return "redirect:/BuMen/allBumen";
         }
-        else{
-            List<BuMen> list = buMenService.queryAllBuMen();
-            model.addAttribute("list", list);
-            return "department";
+        String value = iv.getDepartmentName();
+        while (it.hasNext()){
+            BuMen i = it.next();
+            String a = "";
+            System.out.println("attribute is " + attribute);
+            switch (attribute){
+                case "部门编号":
+                    a = i.getDepartmentID();
+                    break;
+                case "部门名字":
+                    a = i.getDepartmentName();
+                    break;
+                case "部门经理":
+                    a = i.getManagerID();
+                    break;
+                default:
+                    break;
+            }
+            if(!a.equals(value)) {
+                it.remove();
+            }
         }
+        model.addAttribute("list", list);
+        return "department";
     }
 
     @RequestMapping("toInsertBumen")
@@ -62,7 +87,6 @@ public class BuMenController {
 
   @RequestMapping("/updateBuMen")
   public String updateBuMen(Model model, BuMen Bumen) {
-      System.out.println(Bumen.toString());
       buMenService.updateBumen(Bumen);
       Bumen = buMenService.queryByID(Bumen.getDepartmentID());
       model.addAttribute("BuMen", Bumen);

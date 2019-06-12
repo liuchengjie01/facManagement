@@ -48,7 +48,7 @@
         departmentfield_id = #{departmentfieldID}
     </delete>
 
-    <update id="updatedepartmentfield" parameterType="String">
+    <update id="updatedepartmentfield" parameterType="departmentfield">
         UPDATE departmentfield
         set depart_add = #{departAdd}
         WHERE

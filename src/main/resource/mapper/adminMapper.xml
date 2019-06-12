@@ -7,7 +7,6 @@
     <resultMap type="admin" id="adminMap">
         <id property="username" column="username"/>
         <result property="password" column="password"/>
-        <result property="role" column="role"/>
     </resultMap>
     <select id="queryByUsername" resultMap="adminMap">
         SELECT *

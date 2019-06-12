@@ -26,6 +26,7 @@ public class projectController {
 
     @RequestMapping("toInsertproject")
     public String toInsertproject(){
+        System.out.println("test");
         return "insertProject";
     }
 
@@ -51,7 +52,7 @@ public class projectController {
     public String updateProject(Model model, project pj) {
         pService.updateProject(pj);
         pj = pService.queryProjectByID(pj.getProject_id());
-        model.addAttribute("departmentfield", pj);
+        model.addAttribute("project", pj);
         return "redirect:/project/allproject";
     }
 

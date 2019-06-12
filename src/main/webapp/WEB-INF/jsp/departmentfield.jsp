@@ -928,6 +928,21 @@
                                 <a class="btn btn-primary" href="${path}/departmentfield/toInsertdepartmentfield">新增</a>
                             </div>
                         </div>
+                        <div>
+                            <form action="" name="userForm">
+                                属性：<input type="text" name="departmentfieldID"><br><br>
+                                取值：<input type="text" name="departmentID"><br><br>
+                                <input type="button" value="查询" onclick="searchDepartmentfield()">
+                            </form>
+                            <script type="text/javascript">
+                                function searchDepartmentfield() {
+                                    var form = document.forms[1];
+                                    form.action = "<%=appPath%>/departmentfield/searchDepartmentfield";
+                                    form.method = "post";
+                                    form.submit();
+                                }
+                            </script>
+                        </div>
                         <div id="grid-pager"></div>
                         <!-- PAGE CONTENT ENDS -->
                     </div><!-- /.col -->
