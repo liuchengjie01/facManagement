@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Iterator;
 import java.util.List;
 
 @Controller
@@ -24,6 +25,44 @@ public class MaterialController{
         return "material";
     }
 
+    @RequestMapping("/searchMaterial")
+    public String search(Model model, Material iv){
+        List<Material> list = mService.queryAllMaterial();
+        Iterator<Material> it = list.iterator();
+        String attribute = iv.getMaterial_id();
+        System.out.println("attribute is " + attribute);
+        if (attribute.equals("")){
+            return "redirect:/material/allMaterial";
+        }
+        String value = iv.getMaterial_name();
+        System.out.println("value is " + value);
+        while (it.hasNext()){
+            Material i = it.next();
+            String a = "";
+            switch (attribute){
+                case "材料编号":
+                    a = i.getMaterial_id();
+                    break;
+                case "材料名称":
+                    a = i.getMaterial_name();
+                    break;
+                case "材料储量":
+                    a = i.getMaterial_storage();
+                    break;
+                default:
+                    break;
+            }
+            System.out.println("----"+a);
+            if(!a.equals(value)) {
+                it.remove();
+                System.out.println("***************");
+            }
+        }
+        System.out.println("/////"+list.size());
+        model.addAttribute("materials", list);
+        return "material";
+    }
+
     @RequestMapping("/oneMaterial/{materialID}")
     public String listOne(Model model,@PathVariable("materialID") String materialID){
         Material material = mService.queryMaterialByID(materialID);
@@ -33,7 +72,7 @@ public class MaterialController{
 
     @RequestMapping("/toInsertMaterial")
     public String toInsertmaterial(){
-        return "insertMateriala";
+        return "insertMaterial";
     } //该return字符串代表某个jsp页面
 
     @RequestMapping("/addMaterial")

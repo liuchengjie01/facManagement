@@ -909,8 +909,8 @@
                                     <c:forEach var="projectfield" items="${requestScope.get('list')}" varStatus="status">
 
                                         <tr>
-                                            <td>${projectfield.projectfield_id}</td>
                                             <td>${projectfield.project_id}</td>
+                                            <td>${projectfield.projectfield_id}</td>
                                             <td>${projectfield.projectfield_location}</td>
                                             <td>
                                                 <a href="<%=appPath%>/projectfield/toUpdateprojectfield/field/${projectfield.projectfield_id}/project/${projectfield.project_id}">修改</a>
@@ -925,8 +925,23 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 column">
-                                <a class="btn btn-primary" href="${path}/projectfield/toInsertprojectfield">新增</a>
+                                <a class="btn btn-primary" href="${path}/projectfield/toInsertprojectfield">新增</a><br><br>
                             </div>
+                        </div>
+                        <div>
+                            <form action="" name="userForm">
+                                属性：<input type="text" name="projectfield_id"><br><br>
+                                取值：<input type="text" name="project_id"><br><br>
+                                <input type="button" value="查询" onclick="searchProjectfield()">
+                            </form>
+                            <script type="text/javascript">
+                                function searchProjectfield() {
+                                    var form = document.forms[1];
+                                    form.action = "<%=appPath%>/projectfield/searchProjectfield";
+                                    form.method = "post";
+                                    form.submit();
+                                }
+                            </script>
                         </div>
                         <div id="grid-pager"></div>
                         <!-- PAGE CONTENT ENDS -->
