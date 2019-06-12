@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.RMDao">
+  <resultMap id="BaseResultMap" type="RecordsOfManagers">
+    <id column="department_id" jdbcType="CHAR" property="departmentId" />
+    <id column="employee_id" jdbcType="CHAR" property="employeeId" />
+    <id column="takeoffice_date" jdbcType="DATE" property="takeofficeDate" />
+    <result column="agent_manager" jdbcType="CHAR" property="agentManager" />
+  </resultMap>
+  <select id="queryAllRecordsOfManagers" resultMap="BaseResultMap">
+        SELECT *
+        FROM records_of_managers
+    </select>
+  <select id="selectByPrimaryKey" parameterType="RecordsOfManagers" resultMap="BaseResultMap">
+    select *
+    from records_of_managers
+    where department_id = #{departmentId,jdbcType=CHAR}
+      and employee_id = #{employeeId,jdbcType=CHAR}
+      and takeoffice_date = #{takeofficeDate,jdbcType=DATE}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="RecordsOfManagers">
+    delete from records_of_managers
+    where department_id = #{departmentId,jdbcType=CHAR}
+      and employee_id = #{employeeId,jdbcType=CHAR}
+      and takeoffice_date = #{takeofficeDate,jdbcType=DATE}
+  </delete>
+  <insert id="insert" parameterType="RecordsOfManagers">
+    insert into records_of_managers (department_id, employee_id, takeoffice_date, 
+      agent_manager)
+    values (#{departmentId,jdbcType=CHAR}, #{employeeId,jdbcType=CHAR}, #{takeofficeDate,jdbcType=DATE}, 
+      #{agentManager,jdbcType=CHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="RecordsOfManagers">
+    update records_of_managers
+    set agent_manager = #{agentManager,jdbcType=CHAR}
+    where department_id = #{departmentId,jdbcType=CHAR}
+      and employee_id = #{employeeId,jdbcType=CHAR}
+      and takeoffice_date = #{takeofficeDate,jdbcType=DATE}
+  </update>
+</mapper>

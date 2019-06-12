@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.involveDao">
+    <resultMap type="involve" id="involveResultMap">
+        <id property="employee_id" column="employee_id"/>
+        <result property="project_id" column="project_id"/>
+        <result property="week_startdate" column="week_startdate"/>
+        <result property="week_workhour" column="week_workhour"/>
+
+    </resultMap>
+
+
+
+    <select id="queryAllInvolve" resultMap="involveResultMap">
+        SELECT *
+        FROM involve
+    </select>
+
+    <select id="queryInvolveByID" resultMap="involveResultMap" parameterType="String">
+        SELECT *
+        FROM involve
+        WHERE project_id = #{project_id} AND employee_id = #{employee_id} AND week_startdate = #{week_startdate}
+    </select>
+
+
+
+    <insert id="addInvolve" parameterType="Involve">
+        insert into involve (employee_id,project_id,week_startdate,week_workhour)
+        values
+        (#{employee_id},#{project_id},#{week_startdate},#{week_workhour})
+    </insert>
+
+    <delete id="deleteInvolveByID" parameterType="String">
+        DELETE
+        From involve
+        where
+        employee_id = #{employee_id} AND project_id = #{project_id} AND week_startdate = #{week_startdate}
+    </delete>
+
+    <update id="updateInvolve" parameterType="Involve">
+        UPDATE involve
+        <set>
+
+            <if test="week_workhour != null"> week_workhour = #{week_workhour}</if>
+
+        </set>
+        WHERE
+        employee_id = #{employee_id} AND project_id = #{project_id} AND week_startdate = #{week_startdate}
+    </update>
+</mapper>

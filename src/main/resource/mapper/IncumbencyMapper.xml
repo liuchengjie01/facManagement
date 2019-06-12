@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.IncumbencyDao">
+  <resultMap id="BaseResultMap" type="Incumbency">
+    <id column="employee_id" jdbcType="CHAR" property="employeeId" />
+    <id column="department_id" jdbcType="CHAR" property="departmentId" />
+    <id column="department_etime" jdbcType="DATE" property="departmentEtime" />
+    <result column="department_position" jdbcType="CHAR" property="departmentPosition" />
+    <result column="department_ltime" jdbcType="DATE" property="departmentLtime" />
+  </resultMap>
+  <select id="queryAllIncumbency" resultMap="BaseResultMap">
+        SELECT *
+        FROM incumbency
+    </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap">
+    select *
+    from incumbency
+    where employee_id = #{employeeId,jdbcType=CHAR}
+      and department_id = #{departmentId,jdbcType=CHAR}
+      and department_etime = #{departmentEtime,jdbcType=DATE}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="Incumbency">
+    delete from incumbency
+    where employee_id = #{employeeId,jdbcType=CHAR}
+      and department_id = #{departmentId,jdbcType=CHAR}
+      and department_etime = #{departmentEtime,jdbcType=DATE}
+  </delete>
+  <insert id="insert" parameterType="Incumbency" >
+    insert into incumbency (employee_id, department_id, department_etime, department_position,
+      department_ltime)
+    values (#{employeeId,jdbcType=CHAR},#{departmentId,jdbcType=CHAR}, #{departmentEtime,jdbcType=DATE}, #{departmentPosition,jdbcType=CHAR},
+      #{departmentLtime,jdbcType=DATE})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="Incumbency">
+    update incumbency
+    set department_position = #{departmentPosition,jdbcType=CHAR},
+      department_ltime = #{departmentLtime,jdbcType=DATE}
+    where employee_id = #{employeeId,jdbcType=CHAR}
+      and department_id = #{departmentId,jdbcType=CHAR}
+      and department_etime = #{departmentEtime,jdbcType=DATE}
+  </update>
+</mapper>
