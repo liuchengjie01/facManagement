@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.PayDao">
+  <resultMap id="BaseResultMap" type="Pay">
+    <id column="customer_id" jdbcType="CHAR" property="customerId" />
+    <id column="project_id" jdbcType="CHAR" property="projectId" />
+    <result column="project_payable" jdbcType="DECIMAL" property="projectPayable" />
+    <result column="project_realpayment" jdbcType="DECIMAL" property="projectRealpayment" />
+    <result column="project_restpayment" jdbcType="DECIMAL" property="projectRestpayment" />
+  </resultMap>
+  <select id="queryAllPay" resultMap="BaseResultMap">
+        SELECT *
+        FROM pay
+    </select>
+  <select id="selectByPrimaryKey" parameterType="Pay" resultMap="BaseResultMap">
+    select *
+    from pay
+    where customer_id = #{customerId,jdbcType=CHAR}
+      and project_id = #{projectId,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="Pay">
+    delete from pay
+    where customer_id = #{customerId,jdbcType=CHAR}
+      and project_id = #{projectId,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="Pay">
+    insert into pay (customer_id, project_id, project_payable, 
+      project_realpayment, project_restpayment)
+    values (#{customerId,jdbcType=CHAR}, #{projectId,jdbcType=CHAR}, #{projectPayable,jdbcType=DECIMAL}, 
+      #{projectRealpayment,jdbcType=DECIMAL}, #{projectRestpayment,jdbcType=DECIMAL})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="Pay">
+    update pay
+    set project_payable = #{projectPayable,jdbcType=DECIMAL},
+      project_realpayment = #{projectRealpayment,jdbcType=DECIMAL},
+      project_restpayment = #{projectRestpayment,jdbcType=DECIMAL}
+    where customer_id = #{customerId,jdbcType=CHAR}
+      and project_id = #{projectId,jdbcType=CHAR}
+  </update>
+</mapper>

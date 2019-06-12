@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.assignmentDao">
+    <resultMap type="assignment" id="assignmentResultMap">
+        <id property="task_id" column="task_id"/>
+        <result property="project_id" column="project_id"/>
+        <result property="task_content" column="task_content"/>
+        <result property="task_completion" column="task_completion"/>
+        <result property="task_EFTime" column="task_EFTime"/>
+        <result property="task_RFTime" column="task_RFTime"/>
+        <result property="task_log" column="task_log"/>
+    </resultMap>
+
+
+
+    <select id="queryAllAssignment" resultMap="assignmentResultMap">
+        SELECT *
+        FROM assignment
+    </select>
+
+    <select id="queryAssignmentByID" resultMap="assignmentResultMap" parameterType="String">
+        SELECT *
+        FROM assignment
+        WHERE task_id = #{task_id} AND project_id = #{project_id}
+    </select>
+
+    <insert id="addAssignment" parameterType="assignment">
+        insert into assignment (task_id,project_id,task_content,task_completion,task_EFTime,task_RFTime,task_log)
+        values
+        (#{task_id},#{project_id},#{task_content},#{task_completion},#{task_EFTime},#{task_RFTime},#{task_log})
+    </insert>
+
+    <delete id="deleteAssignmentByID" parameterType="String">
+        DELETE
+        From assignment
+        WHERE
+        task_id = #{task_id}
+        AND
+        project_id = #{project_id}
+    </delete>
+
+    <update id="updateAssignment" parameterType="assignment">
+        UPDATE assignment
+        SET task_completion = #{task_completion}, task_EFTime = #{task_EFTime}, task_RFTime = #{task_RFTime},
+        task_log = #{task_log}
+        WHERE
+        task_id = #{task_id}
+        AND
+        project_id = #{project_id}
+    </update>
+</mapper>

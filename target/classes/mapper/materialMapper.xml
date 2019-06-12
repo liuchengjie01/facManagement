@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.materialDao">
+    <resultMap type="material" id="materialResultMap">
+        <id property="material_id" column="material_id"/>
+        <result property="material_name" column="material_name"/>
+        <result property="material_storage" column="material_storage"/>
+
+    </resultMap>
+
+
+
+    <select id="queryAllMaterial" resultMap="materialResultMap">
+        SELECT *
+        FROM material
+    </select>
+
+    <select id="queryMaterialByID" resultMap="materialResultMap" parameterType="String">
+        SELECT *
+        FROM material
+        WHERE material_id = #{material_id}
+    </select>
+
+    <insert id="addMaterial" parameterType="Material">
+        INSERT INTO material (material_id,material_name,material_storage)
+        VALUES
+        (#{material_id},#{material_name},#{material_storage})
+    </insert>
+
+    <delete id="deleteMaterialByID" parameterType="String">
+        DELETE
+        FROM material
+        WHERE
+        material_id = #{material_id}
+    </delete>
+
+    <update id="updateMaterial" parameterType="Material">
+        UPDATE material
+        SET material_storage = #{material_storage}
+        WHERE
+        material_id = #{material_id}
+    </update>
+</mapper>

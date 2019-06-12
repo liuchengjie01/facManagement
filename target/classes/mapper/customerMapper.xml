@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.customerDao">
+    <resultMap type="customer" id="customerResultMap">
+        <id property="customer_id" column="customer_id"/>
+        <result property="customer_cname" column="customer_cname"/>
+        <result property="customer_contact" column="customer_contact"/>
+        <result property="customer_tel" column="customer_tel"/>
+
+    </resultMap>
+
+
+
+    <select id="queryAllCustomer" resultMap="customerResultMap">
+        SELECT *
+        FROM customer
+    </select>
+
+    <select id="queryCustomerByID" resultMap="customerResultMap" parameterType="Customer">
+        SELECT *
+        FROM customer
+        WHERE customer_id = #{customer_id}
+    </select>
+
+
+
+    <insert id="addCustomer" parameterType="Customer">
+        insert into customer (customer_id,customer_cname,customer_contact,customer_tel)
+        values
+        (#{customer_id},#{customer_cname},#{customer_contact},#{customer_tel})
+    </insert>
+
+    <delete id="deleteCustomerByID" parameterType="String">
+        DELETE
+        From customer
+        where
+        customer_id = #{customer_id}
+    </delete>
+
+    <update id="updateCustomer" parameterType="Customer">
+        UPDATE customer
+        <set>
+            <if test="customer_contact != null">customer_contact = #{customer_contact},</if>
+            <if test="customer_tel != null">customer_tel = #{customer_tel}</if>
+        </set>
+        WHERE
+        customer_id = #{customer_id}
+    </update>
+</mapper>
