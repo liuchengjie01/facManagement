@@ -923,8 +923,23 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 column">
-                                <a class="btn btn-primary" href="${path}/Pay/toInsertPay">新增</a>
+                                <a class="btn btn-primary" href="${path}/Pay/toInsertPay">新增</a><br><br>
                             </div>
+                        </div>
+                        <div>
+                            <form action="" name="userForm">
+                                属性：<input type="text" name="customerId"><br><br>
+                                取值：<input type="text" name="projectId"><br><br>
+                                <input type="button" value="查询" onclick="searchPay()">
+                            </form>
+                            <script type="text/javascript">
+                                function searchPay() {
+                                    var form = document.forms[1];
+                                    form.action = "<%=appPath%>/Pay/searchPay";
+                                    form.method = "post";
+                                    form.submit();
+                                }
+                            </script>
                         </div>
                         <div id="grid-pager"></div>
                         <!-- PAGE CONTENT ENDS -->

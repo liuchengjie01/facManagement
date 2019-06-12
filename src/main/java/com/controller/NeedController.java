@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Iterator;
 import java.util.List;
 
 @Controller
@@ -20,6 +21,46 @@ public class NeedController {
     @RequestMapping("/allNeed")
     public String list(Model model) {
         List<Need> list = NeedService.queryAllNeed();
+        model.addAttribute("list", list);
+        return "Need";
+    }
+
+    @RequestMapping("/searchNeed")
+    public String search(Model model, Need iv){
+        List<Need> list = NeedService.queryAllNeed();
+        Iterator<Need> it = list.iterator();
+        String attribute = iv.getProjectId();
+        if (attribute.equals("")){
+            return "redirect:/Need/allNeed";
+        }
+        String value = iv.getMaterialId();
+        while (it.hasNext()){
+            Need i = it.next();
+            String a = "";
+            System.out.println("attribute is " + attribute);
+            switch (attribute){
+                case "项目编号":
+                    a = i.getProjectId();
+                    break;
+                case "材料编号":
+                    a = i.getMaterialId();
+                    break;
+                case "需求量":
+                    a = i.getMaterialDemand();
+                    break;
+                case "供应量":
+                    a = i.getMaterialSupply();
+                    break;
+                case "差额":
+                    a = i.getMaterialBalance();
+                    break;
+                default:
+                    break;
+            }
+            if(!a.equals(value)) {
+                it.remove();
+            }
+        }
         model.addAttribute("list", list);
         return "Need";
     }
