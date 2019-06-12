@@ -114,7 +114,7 @@
     </div>
   </div>
   <form action="" name="userForm">
-    部门编号：<input type="text" name="departmentID"><br><br><br>
+    <input type="hidden" name="departmentID" value="${Bumen.departmentID}"/>
     部门名称：<input type="text" name="departmentName"><br><br><br>
     部门经理(员工号)：<input type="text" name="managerID"><br><br><br>
     <input type="button" value="添加" onclick="addBumen()">

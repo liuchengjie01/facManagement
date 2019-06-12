@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 @Controller
@@ -24,6 +25,55 @@ public class IncumbencyController {
         model.addAttribute("list", list);
         return "Incumbency";
     }
+
+    @RequestMapping("/searchIncumbency")
+    public String search(Model model, Incumbency iv){
+        System.out.println("**********"+iv.toString());
+        List<Incumbency> list = IncumbencyService.queryAllIncumbency();
+        Iterator<Incumbency> it = list.iterator();
+        String attribute = iv.getEmployeeId();
+        if (attribute.equals("")){
+            return "redirect:/Incumbency/allIncumbency";
+        }
+        String value = iv.getDepartmentId();
+        while (it.hasNext()){
+            Incumbency i = it.next();
+            String a = "";
+            Date d = null;
+            System.out.println("attribute is " + attribute);
+            switch (attribute){
+                case "员工号":
+                    a = i.getEmployeeId();
+                    break;
+                case "部门编号":
+                    a = i.getDepartmentId();
+                    break;
+                case "部门职位":
+                    a = i.getDepartmentPosition();
+                    break;
+                case "入职时间":
+                    d = i.getDepartmentEtime();
+                    break;
+                case "离职时间":
+                    d = i.getDepartmentLtime();
+                    break;
+                default:
+                    break;
+            }
+            if (!a.equals("")){
+                if(!a.equals(value)) {
+                    it.remove();
+                }
+            } else if (d != null){
+                if (!d.equals(value)){
+                    it.remove();
+                }
+            }
+        }
+        model.addAttribute("list", list);
+        return "Incumbency";
+    }
+
 
     @RequestMapping("toInsertIncumbency")
     public String toInsertIncumbency(){

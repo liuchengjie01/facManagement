@@ -943,7 +943,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-4 column">
-                                <a class="btn btn-primary" href="${path}/Employee/toInsertEmployee">新增</a>
+                                <a class="btn btn-primary" href="${path}/Employee/toInsertEmployee">新增</a><br><br>
                             </div>
                         </div>
                         <div>
