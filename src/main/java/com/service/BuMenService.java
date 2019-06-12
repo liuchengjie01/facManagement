@@ -18,4 +18,6 @@ public interface BuMenService {
 
     BuMen queryByID(String id);
 
+    BuMen queryMAXID();
+
 }

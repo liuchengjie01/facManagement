@@ -35,4 +35,12 @@
     </set>
     WHERE department_id = #{departmentID}
   </update>
+    <select id="queryMAXID" resultMap="BuMenResultMap">
+        SELECT *
+        FROM department
+        WHERE department_id >= (
+        SELECT Max(department_id)
+        FROM department
+        )
+    </select>
 </mapper>

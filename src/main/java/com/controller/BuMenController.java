@@ -63,7 +63,12 @@ public class BuMenController {
     }
 
     @RequestMapping("toInsertBumen")
-    public String toInsertBumen(){
+    public String toInsertBumen(Model model){
+        BuMen bw = buMenService.queryMAXID();
+        int id = Integer.parseInt(bw.getDepartmentID());
+        id = id + 1;
+        bw.setDepartmentID(String.valueOf(id));
+        model.addAttribute("Bumen",bw);
         return "insertDepartment";
     }
 

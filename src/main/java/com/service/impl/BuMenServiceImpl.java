@@ -37,4 +37,7 @@ public class BuMenServiceImpl implements BuMenService {
     @Override
     public BuMen queryByID(String id){return buDao.queryByID(id);}
 
+    @Override
+    public BuMen queryMAXID(){return buDao.queryMAXID();}
+
 }

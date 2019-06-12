@@ -10,5 +10,6 @@ public interface  BuMenDao {
     int deleteBumenByID(String id);
     int updateBumen(BuMen bumen);
     BuMen queryByID(String id);
+    BuMen queryMAXID();
 
 }
