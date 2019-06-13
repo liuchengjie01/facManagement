@@ -1,5 +1,7 @@
 package com.pojo;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -18,6 +20,7 @@ public class Employee implements Serializable {
 
     private String employeeSex;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date employeeBirthday;
 
     private String employeeTel;
@@ -34,8 +37,10 @@ public class Employee implements Serializable {
 
     private Long employeeSalary;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date employeeLtime;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date employeeEtime;
 
     private static final long serialVersionUID = 1L;

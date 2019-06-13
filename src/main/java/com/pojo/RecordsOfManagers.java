@@ -59,4 +59,11 @@ public class RecordsOfManagers{
         sb.append("]");
         return sb.toString();
     }
+
+    public RecordsOfManagers(String departmentId, String employeeId, Date takeofficeDate, String agentManager) {
+        this.departmentId = departmentId;
+        this.employeeId = employeeId;
+        this.takeofficeDate = takeofficeDate;
+        this.agentManager = agentManager;
+    }
 }

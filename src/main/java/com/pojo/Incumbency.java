@@ -71,4 +71,12 @@ public class Incumbency{
         sb.append("]");
         return sb.toString();
     }
+
+    public Incumbency(String employeeId, String departmentId, Date departmentEtime, String departmentPosition, Date departmentLtime) {
+        this.employeeId = employeeId;
+        this.departmentId = departmentId;
+        this.departmentEtime = departmentEtime;
+        this.departmentPosition = departmentPosition;
+        this.departmentLtime = departmentLtime;
+    }
 }

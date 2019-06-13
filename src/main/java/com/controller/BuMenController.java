@@ -1,6 +1,12 @@
 package com.controller;
 
 import com.pojo.BuMen;
+import com.pojo.Employee;
+import com.pojo.Incumbency;
+import com.pojo.RecordsOfManagers;
+import com.service.EmployeeService;
+import com.service.IncumbencyService;
+import com.service.RMService;
 import com.utils.ID_manag;
 import com.service.BuMenService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.ui.Model;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -20,6 +28,15 @@ public class BuMenController {
     @Autowired
     private BuMenService buMenService;
 
+    @Autowired
+    private EmployeeService employeeservice;
+
+    @Autowired
+    private IncumbencyService incumbencyservice;
+
+    @Autowired
+    private RMService rm;
+
     @RequestMapping("/allBumen")
     public String list(Model model) {
         List<BuMen> list = buMenService.queryAllBuMen();
@@ -29,7 +46,6 @@ public class BuMenController {
 
     @RequestMapping("/searchBumen")
     public String search(Model model, BuMen iv){
-        System.out.println("**********"+iv.toString());
         List<BuMen> list = buMenService.queryAllBuMen();
         Iterator<BuMen> it = list.iterator();
         String attribute = iv.getDepartmentID();
@@ -40,7 +56,6 @@ public class BuMenController {
         while (it.hasNext()){
             BuMen i = it.next();
             String a = "";
-            System.out.println("attribute is " + attribute);
             switch (attribute){
                 case "部门编号":
                     a = i.getDepartmentID();
@@ -92,9 +107,34 @@ public class BuMenController {
 
   @RequestMapping("/updateBuMen")
   public String updateBuMen(Model model, BuMen Bumen) {
-      buMenService.updateBumen(Bumen);
-      Bumen = buMenService.queryByID(Bumen.getDepartmentID());
-      model.addAttribute("BuMen", Bumen);
-    return "redirect:/BuMen/allBumen";
+        System.out.println("Bumen ManagerID is "+Bumen.getManagerID());
+       Employee e = employeeservice.queryByID(Bumen.getManagerID());
+       if (e != null){
+           System.out.println(e.getEmployeeId());
+           System.out.println("----------");
+           System.out.println(e.getCurDepartmentid());
+           System.out.println("----------");
+       }
+       BuMen b = buMenService.queryByID(Bumen.getDepartmentID());
+       System.out.println(b.getManagerID());
+       if (e != null && e.getCurDepartmentid().equals(Bumen.getDepartmentID()) && (b.getManagerID()==null || b.getManagerID().equals(""))){
+           buMenService.updateBumen(Bumen);
+           e.setEmployPosition("经理");
+           employeeservice.updateByPrimaryKey(e);
+           SimpleDateFormat simFormat = new SimpleDateFormat("yyyy-MM-dd");
+           try {
+               Date dtBeg = simFormat.parse("1111-11-12");
+               incumbencyservice.insert(new Incumbency(e.getEmployeeId(),Bumen.getDepartmentID(),new Date(),"经理",dtBeg));
+           } catch(Exception e1){
+               System.out.println(e1);
+           }
+           rm.insert(new RecordsOfManagers(b.getDepartmentID(),e.getEmployeeId(),new Date(),""));
+           Bumen = buMenService.queryByID(Bumen.getDepartmentID());
+           model.addAttribute("BuMen", Bumen);
+           return "redirect:/BuMen/allBumen";
+       } else {
+           model.addAttribute("message", "Input data error!");
+           return "updateDepartment";
+       }
   }
 }

@@ -1,13 +1,18 @@
 package com.controller;
 
+import com.pojo.BuMen;
 import com.pojo.Employee;
+import com.pojo.Incumbency;
+import com.service.BuMenService;
 import com.service.EmployeeService;
+import com.service.IncumbencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
@@ -19,6 +24,12 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+    @Autowired
+    private BuMenService bumenService;
+
+    @Autowired
+    private IncumbencyService incumbencyService;
+
     @RequestMapping("/Employee")
     public String list(Model model) {
         List<Employee> list = employeeService.queryAllEmployee();
@@ -28,7 +39,6 @@ public class EmployeeController {
 
     @RequestMapping("/searchEmployee")
     public String search(Model model, Employee iv){
-        System.out.println("**********"+iv.toString());
         List<Employee> list = employeeService.queryAllEmployee();
         Iterator<Employee> it = list.iterator();
         String attribute = iv.getEmployeeId();
@@ -41,7 +51,6 @@ public class EmployeeController {
             String a = "";
             long l = 0;
             Date d = null;
-            System.out.println("attribute is " + attribute);
             switch (attribute){
                 case "员工号":
                     a = i.getEmployeeId();
@@ -115,9 +124,24 @@ public class EmployeeController {
     }
 
     @RequestMapping("/insertEmployee")
-    public String insertEmployee(Employee Employee) {
-        employeeService.insert(Employee);
-        return "redirect:/Employee/Employee";
+    public String insertEmployee(Model model,Employee employee) {
+        BuMen b = bumenService.queryByID(employee.getCurDepartmentid());
+        if (b != null){
+            SimpleDateFormat simFormat = new SimpleDateFormat("yyyy-MM-dd");
+            try{
+                Date dtBeg = simFormat.parse("1111-11-12");
+                incumbencyService.insert(new Incumbency(employee.getEmployeeId(),b.getDepartmentID(),new Date(),employee.getEmployPosition(),dtBeg));
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+
+            employeeService.insert(employee);
+            return "redirect:/Employee/Employee";
+        } else{
+            model.addAttribute("message","Input data error!");
+            return "insertEmployee";
+        }
+
     }
 
     @RequestMapping("/del/{employeeId}")
