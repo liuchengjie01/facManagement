@@ -68,6 +68,17 @@
 <body>
 <div id="navbar" class="navbar navbar-default          ace-save-state">
   <div class="navbar-container ace-save-state" id="navbar-container">
+    <%
+      Object o = request.getAttribute("message");
+      if (o != null && !"".equals(o)){
+    %>
+    <script type="text/javascript">
+      alert("<%=o%>")
+    </script>
+
+    <%
+      }
+    %>
     <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
       <span class="sr-only">Toggle sidebar</span>
 
@@ -118,7 +129,7 @@
     材料编号：<input type="text" name="material_id"><br><br><br>
     价格：<input type="text" name="price"><br><br><br>
     数量：<input type="text" name="amount"><br><br><br>
-    编号：<input type="text" name="unit"><br><br><br>
+    单位：<input type="text" name="unit"><br><br><br>
     日期：<input type="text" name="starttime"><br><br><br>
     <input type="button" value="添加" onclick="addDepartmentField()">
   </form>

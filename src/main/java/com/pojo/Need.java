@@ -1,5 +1,7 @@
 package com.pojo;
 
+import java.util.Date;
+
 /**
  * need
  * @author 
@@ -9,11 +11,65 @@ public class Need {
 
     private String materialId;
 
-    private String materialDemand;
+    private int materialDemand;
 
-    private String materialSupply;
+    private int materialSupply;
 
-    private String materialBalance;
+    private int materialBalance;
+
+    private Date supplyTime;
+
+    private String unit;
+
+    private int havaSupply;
+
+    public Date getSupplyTime() {
+        return supplyTime;
+    }
+
+    public void setSupplyTime(Date supplyTime) {
+        this.supplyTime = supplyTime;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    public int getMaterialDemand() {
+        return materialDemand;
+    }
+
+    public void setMaterialDemand(int materialDemand) {
+        this.materialDemand = materialDemand;
+    }
+
+    public int getMaterialSupply() {
+        return materialSupply;
+    }
+
+    public void setMaterialSupply(int materialSupply) {
+        this.materialSupply = materialSupply;
+    }
+
+    public int getMaterialBalance() {
+        return materialBalance;
+    }
+
+    public void setMaterialBalance(int materialBalance) {
+        this.materialBalance = materialBalance;
+    }
+
+    public int getHavaSupply() {
+        return havaSupply;
+    }
+
+    public void setHavaSupply(int havaSupply) {
+        this.havaSupply = havaSupply;
+    }
 
     public String getProjectId() {
         return projectId;
@@ -29,30 +85,6 @@ public class Need {
 
     public void setMaterialId(String materialId) {
         this.materialId = materialId;
-    }
-
-    public String getMaterialDemand() {
-        return materialDemand;
-    }
-
-    public void setMaterialDemand(String materialDemand) {
-        this.materialDemand = materialDemand;
-    }
-
-    public String getMaterialSupply() {
-        return materialSupply;
-    }
-
-    public void setMaterialSupply(String materialSupply) {
-        this.materialSupply = materialSupply;
-    }
-
-    public String getMaterialBalance() {
-        return materialBalance;
-    }
-
-    public void setMaterialBalance(String materialBalance) {
-        this.materialBalance = materialBalance;
     }
 
     @Override

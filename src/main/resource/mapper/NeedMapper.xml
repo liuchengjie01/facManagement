@@ -7,6 +7,9 @@
     <result column="material_demand" jdbcType="CHAR" property="materialDemand" />
     <result column="material_supply" jdbcType="CHAR" property="materialSupply" />
     <result column="material_balance" jdbcType="CHAR" property="materialBalance" />
+    <result column="supply_time" property="supplyTime" />
+    <result column="unit" property="unit" />
+    <result column="have_supply" property="havaSupply"/>
   </resultMap>
   <select id="queryAllNeed" resultMap="BaseResultMap">
         SELECT *
@@ -24,10 +27,8 @@
       and material_id = #{materialId,jdbcType=CHAR}
   </delete>
   <insert id="insert"  parameterType="Need">
-    insert into need (project_id, material_id, material_demand, material_supply,
-      material_balance)
-    values (#{projectId,jdbcType=CHAR}, #{materialId,jdbcType=CHAR}, #{materialDemand,jdbcType=CHAR}, #{materialSupply,jdbcType=CHAR},
-      #{materialBalance,jdbcType=CHAR})
+    insert into need
+    values (#{projectId,jdbcType=CHAR}, #{materialId,jdbcType=CHAR}, #{materialDemand,jdbcType=CHAR}, #{materialSupply}, #{materialDemand}-#{havaSupply}, #{supplyTime},#{unit}, #{havaSupply})
   </insert>
   <update id="updateByPrimaryKey" parameterType="Need">
     update need

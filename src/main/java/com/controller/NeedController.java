@@ -1,13 +1,18 @@
 package com.controller;
 
+import com.pojo.Material;
 import com.pojo.Need;
+import com.pojo.project;
 import com.service.NeedService;
+import com.service.materialService;
+import com.service.projectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
@@ -17,6 +22,12 @@ public class NeedController {
 
     @Autowired
     private NeedService NeedService;
+
+    @Autowired
+    private projectService projectservice;
+
+    @Autowired
+    private materialService mService;
 
     @RequestMapping("/allNeed")
     public String list(Model model) {
@@ -37,6 +48,8 @@ public class NeedController {
         while (it.hasNext()){
             Need i = it.next();
             String a = "";
+            int in = 0;
+            Date d = null;
             System.out.println("attribute is " + attribute);
             switch (attribute){
                 case "项目编号":
@@ -45,20 +58,38 @@ public class NeedController {
                 case "材料编号":
                     a = i.getMaterialId();
                     break;
-                case "需求量":
-                    a = i.getMaterialDemand();
+                case "总需求量":
+                    in = i.getMaterialDemand();
                     break;
-                case "供应量":
-                    a = i.getMaterialSupply();
+                case "已供应量":
+                    in = i.getHavaSupply();
                     break;
+                case "本次供应量":
+                    in = i.getMaterialSupply();
+                    break;
+                case "供应时间":
+                    d = i.getSupplyTime();
+                    break;
+                case "单位":
+                    a = i.getUnit();
                 case "差额":
-                    a = i.getMaterialBalance();
+                    in = i.getMaterialBalance();
                     break;
                 default:
                     break;
             }
-            if(!a.equals(value)) {
-                it.remove();
+            if (!a.equals("")){
+                if(!a.equals(value)) {
+                    it.remove();
+                }
+            } else if (in != 0) {
+                if ( !String.valueOf(in).equals(value) ){
+                    it.remove();
+                }
+            } else {
+                if (!d.equals(value)){
+                    it.remove();
+                }
             }
         }
         model.addAttribute("list", list);
@@ -71,11 +102,27 @@ public class NeedController {
     }
 
     @RequestMapping("/insertNeed")
-    public String insertNeed(Need Need) {
-        NeedService.insert(Need);
-        return "redirect:/Need/allNeed";
+    public String insertNeed(Model model, Need need) {
+        if (check(need)){
+            NeedService.insert(need);
+            return "redirect:/Need/allNeed";
+        } else {
+            model.addAttribute("message", "Input data error");
+            return "insertNeed";
+        }
     }
 
+    public boolean check(Need need){
+        project p = projectservice.queryProjectByID(need.getProjectId());
+        Material m = mService.queryMaterialByID(need.getMaterialId());
+        if (p  != null &&  m != null){
+            m.setMaterial_storage(m.getMaterial_storage()-need.getMaterialSupply());
+            mService.updateMaterial(m);
+            return true;
+        } else {
+            return false;
+        }
+    }
     @RequestMapping("/del/pi/{projectId}/mi/{materialId}")
     public String deleteNeedByID(@PathVariable("projectId") String  projectId,@PathVariable("materialId") String materialId) {
         NeedService.deleteByPrimaryKey(projectId,materialId);

@@ -30,7 +30,6 @@ public class MaterialController{
         List<Material> list = mService.queryAllMaterial();
         Iterator<Material> it = list.iterator();
         String attribute = iv.getMaterial_id();
-        System.out.println("attribute is " + attribute);
         if (attribute.equals("")){
             return "redirect:/material/allMaterial";
         }
@@ -39,6 +38,7 @@ public class MaterialController{
         while (it.hasNext()){
             Material i = it.next();
             String a = "";
+            int in = -1;
             switch (attribute){
                 case "材料编号":
                     a = i.getMaterial_id();
@@ -47,18 +47,21 @@ public class MaterialController{
                     a = i.getMaterial_name();
                     break;
                 case "材料储量":
-                    a = i.getMaterial_storage();
+                    in = i.getMaterial_storage();
                     break;
                 default:
                     break;
             }
-            System.out.println("----"+a);
-            if(!a.equals(value)) {
-                it.remove();
-                System.out.println("***************");
+            if (!a.equals("")){
+                if(!a.equals(value)) {
+                    it.remove();
+                }
+            } else if (in != -1){
+                if (Integer.toString(in) != value){
+                    it.remove();
+                }
             }
         }
-        System.out.println("/////"+list.size());
         model.addAttribute("materials", list);
         return "material";
     }

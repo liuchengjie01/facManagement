@@ -1,7 +1,11 @@
 package com.controller;
 
 
+import com.pojo.Material;
 import com.pojo.supply;
+import com.pojo.supplier;
+import com.service.materialService;
+import com.service.supplierService;
 import com.service.supplyService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -11,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.function.Supplier;
 
 @Controller
 @RequestMapping("/supply")
@@ -18,6 +23,12 @@ public class supplyController {
 
     @Autowired
     private supplyService sService;
+
+    @Autowired
+    private materialService m;
+
+    @Autowired
+    private supplierService s;
 
     @RequestMapping("/allsupply")
     public String list(Model model){
@@ -38,6 +49,7 @@ public class supplyController {
         while (it.hasNext()){
             supply i = it.next();
             String a = "";
+            int in = -1;
             System.out.println("attribute is " + attribute);
             switch (attribute){
                 case "供应商编号":
@@ -50,7 +62,7 @@ public class supplyController {
                     a = i.getPrice();
                     break;
                 case "数量":
-                    a = i.getAmount();
+                    in = i.getAmount();
                     break;
                 case "单位":
                     a = i.getUnit();
@@ -61,8 +73,14 @@ public class supplyController {
                 default:
                     break;
             }
-            if(!a.equals(value)) {
-                it.remove();
+            if (!a.equals("")) {
+                if(!a.equals(value)) {
+                    it.remove();
+                }
+            } else if (in != 0){
+                if (!Integer.toString(in).equals(value)){
+                    it.remove();
+                }
             }
         }
         model.addAttribute("list", list);
@@ -75,9 +93,26 @@ public class supplyController {
     }
 
     @RequestMapping("/insertsupply")
-    public String insertsupplier(supply pj) {
-        sService.addSupply(pj);
-        return "redirect:/supply/allsupply";
+    public String insertsupplier(Model model, supply pj) {
+        if (check(pj)){
+            sService.addSupply(pj);
+            return "redirect:/supply/allsupply";
+        } else {
+            model.addAttribute("message","Input data error!");
+            return "insertSupply";
+        }
+    }
+
+    public boolean check(supply pj){
+        Material material = m.queryMaterialByID(pj.getMaterial_id());
+        supplier ss = s.querySupplierByID(pj.getSupplier_id());
+        if (material != null && ss != null){
+            material.setMaterial_storage(material.getMaterial_storage()+pj.getAmount());
+            m.updateMaterial(material);
+            return true;
+        } else {
+            return false;
+        }
     }
 
     @RequestMapping("/del/supply/{supply_id}/material/{material_id}")

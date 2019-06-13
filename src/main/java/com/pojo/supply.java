@@ -5,7 +5,7 @@ public class supply {
     private String supplier_id;
     private String material_id;
     private String price;
-    private String amount;
+    private int amount;
     private String unit;
     private String starttime;
 
@@ -45,11 +45,11 @@ public class supply {
         this.price = price;
     }
 
-    public String getAmount() {
+    public int getAmount() {
         return amount;
     }
 
-    public void setAmount(String amount) {
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 

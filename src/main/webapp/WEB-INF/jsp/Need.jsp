@@ -896,8 +896,11 @@
                                     <tr>
                                         <th>项目编号</th>
                                         <th>材料编号</th>
-                                        <th>需求量</th>
-                                        <th>供应量</th>
+                                        <th>总需求量</th>
+                                        <th>已供应量</th>
+                                        <th>本次供应量</th>
+                                        <th>供应时间</th>
+                                        <th>单位</th>
                                         <th>差额</th>
                                         <th>操作</th>
                                     </tr>
@@ -908,7 +911,10 @@
                                             <td>${Need.projectId}</td>
                                             <td>${Need.materialId}</td>
                                             <td>${Need.materialDemand}</td>
+                                            <td>${Need.havaSupply}</td>
                                             <td>${Need.materialSupply}</td>
+                                            <td>${Need.supplyTime}</td>
+                                            <td>${Need.unit}</td>
                                             <td>${Need.materialBalance}</td>
                                             <td>
                                                 <a href="<%=appPath%>/Need/toUpdateNeed/pi/${Need.projectId}/mi/${Need.materialId}">更改</a>

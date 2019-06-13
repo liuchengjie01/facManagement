@@ -68,6 +68,17 @@
 <body>
 <div id="navbar" class="navbar navbar-default          ace-save-state">
   <div class="navbar-container ace-save-state" id="navbar-container">
+    <%
+      Object o = request.getAttribute("message");
+      if (o != null && !"".equals(o)){
+        %>
+    <script type="text/javascript">
+      alert("<%=o%>")
+    </script>
+
+    <%
+      }
+    %>
     <button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
       <span class="sr-only">Toggle sidebar</span>
 
@@ -117,10 +128,11 @@
 
     项目编号：<input type="text" name="projectId"><br><br><br>
     材料编号：<input type="text" name="materialId"><br><br><br>
-    需求量：<input type="text" name="materialDemand"><br><br><br>
-    供应量：<input type="text" name="materialSupply"><br><br><br>
-    差额：<input type="text" name="materialBalance"><br><br><br>
-
+    总需求量：<input type="text" name="materialDemand"><br><br><br>
+    已供应量：<input type="text" name="havaSupply"><br><br><br>
+    本次供应量：<input type="text" name="materialSupply"><br><br><br>
+    供应时间：<input type="text" name="supplyTime"><br><br><br>
+    单位：<input type="text" name="unit"><br><br><br>
     <input type="button" value="添加" onclick="add()">
   </form>
 
